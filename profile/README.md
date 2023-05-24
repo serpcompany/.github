@@ -1,3 +1,5 @@
 ## Welcome to the team 🙌
 
-Github: [SERP AI](https://github.com/serp-ai/)
+- [SERP](https://serp.co/)
+- [SERP AI](https://serp.ai/)
+- SERP AI Github: [SERP AI](https://github.com/serp-ai/)

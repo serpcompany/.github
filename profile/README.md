@@ -1,43 +1,53 @@
 # Welcome to SERP 🙌
 
+## Table of Contents
+- [SERP Brands](#serp-brands)
+- [Partner Brands](#partner-brands)
+- [SERP Team](#serp-team)
 
 ***
 
 ## SERP Brands
 
-- [SERP](https://serp.co/) | [Repo](https://github.com/serpcompany/serp.co)
-- [SERP AI](https://serp.ai/) | [Repo](https://github.com/serpcompany/serp.ai)
-- [SERP App](https://serp.app/) | [Repo](https://github.com/serpcompany/serp-app)
-- SERP Bio | [Repo](https://github.com/serpcompany/serp.bio)
-- SERP Dev
-- [SERP Games](https://serp.games/)
-- SERP Media
-- SERP University
-- SERP.ly | [Repo](https://github.com/serpcompany/serp.ly)
+| SERP Brands          | Website       | Repository       | Project Board |
+| :-------------- | ------------- | ---------------- | ------------- |
+| SERP           | [Link](https://serp.co/) | [Link](https://github.com/serpcompany/serp.co) | Link |
+| SERP AI        | [Link](https://serp.ai/) | [Link](https://github.com/serpcompany/serp.ai) | Link |
+| SERP App       | [Link](https://serp.app/) | [Link](https://github.com/serpcompany/serp-app) | Link |
+| SERP Bio       | N/A | [Link](https://github.com/serpcompany/serp.bio) | Link |
+| SERP Dev       | N/A | N/A | Link |
+| SERP Games     | [Link](https://serp.games/) | N/A | Link |
+| SERP Media     | N/A | N/A | Link |
+| SERP University| N/A | N/A | Link |
+| SERP.ly        | N/A | [Link](https://github.com/serpcompany/serp.ly) | Link |
 
 ***
 
 ## Partner Brands
 
-- [Boxing Undefeated](http://boxingundefeated.com/) | Repo
-- [Daft FM](https://daft.fm/) | 
-- [Stylist Pick](https://stylistpick.com/) |
-- [Merchant Alternatives ](https://merchantalternatives.com/) |
-- [University of Guns](https://universityofguns.com/) |
+| Partner Brands          | Website                                | Repository | Project Board |
+| :----------------------- | -------------------------------------- | -----------| ------------- |
+| Boxing Undefeated       | [Link](http://boxingundefeated.com/)   | Link       | Link          |
+| Daft FM                 | [Link](https://daft.fm/)               | Link       | Link          |
+| Stylist Pick            | [Link](https://stylistpick.com/)       | Link       | Link          |
+| Merchant Alternatives   | [Link](https://merchantalternatives.com/) | Link | Link |
+| University of Guns      | [Link](https://universityofguns.com/)  | Link       | Link          |
+
 
 ***
   
-## Resources
+## SERP Team
 
-Team specific links & resources:
-
-| Team             | Team Repo        | Team Project Board  | Team Slack Channel  |
-| ---------------- | ---------------- | ------------------- | ------------------- |
+| Teams            | Repository       | Project Board       | Slack Channel       |
+| :---------------- | ---------------- | ------------------- | ------------------- |
 | Accounts         | [Link](https://github.com/serpcompany/team-accounts/tree/main) | Link | Link |
-| Creators         | Link | Link | Link |
+| Creators         | Link | Link | [Link](slack://channel?team=T123456&id=C123456) |
 | Developers       | Link | Link | Link |
 | SEO              | [Link](https://github.com/serpcompany/team-seo) | Link | Link |
-| Accounts         | Link | Link | Link |
+| SEO > Link Outreach | Link | Link | Link |
+| Websites > Design         | Link | Link | Link |
+| Websites > Front End         | Link | [Link](https://github.com/orgs/serpcompany/projects/120/views/1) | Link |
+
 
 ***
 

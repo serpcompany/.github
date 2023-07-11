@@ -36,7 +36,7 @@
 
 ***
   
-## SERP Team
+## SERP Teams
 
 | Teams            | Repository       | Project Board       | Slack Channel       |
 | :---------------- | ---------------- | ------------------- | ------------------- |

@@ -1,9 +1,36 @@
 # Welcome to SERP 🙌
 
 ## Table of Contents
+- [SERP Teams](#serp-team)
 - [SERP Brands](#serp-brands)
 - [Partner Brands](#partner-brands)
-- [SERP Team](#serp-team)
+
+
+***
+
+## SERP Teams
+
+### All Teams Resources:
+
+- 📺 [Intro to Github for Project Management](https://youtu.be/Dr9LlJBth_c)
+- 📕 [What the heck is EOS?
+](https://drive.google.com/file/d/1pJgDFLfal86mItDc0fo5cEMe8f4Hi5HD/view?usp=sharing)
+
+***
+
+### Team Specific Resources:
+
+| Teams            | Repository       | Project Board       | Slack Channel       |
+| :---------------- | ---------------- | ------------------- | ------------------- |
+| Accounts         | [Link](https://github.com/serpcompany/team-accounts/tree/main) | [Link](https://github.com/orgs/serpcompany/projects/121/views/1) | Link |
+| Creators         | Link | Link | [Link](slack://channel?team=T123456&id=C123456) |
+| Developers       | Link | Link | Link | 
+| SEO              | [Link](https://github.com/serpcompany/team-seo) | [Link](https://github.com/orgs/serpcompany/projects/102) | Link |
+| SEO > Link Outreach | Link | [Link](https://github.com/orgs/serpcompany/projects/100/views/1) | Link |
+| Websites > Design         | Link | Link | Link |
+| Websites > Front End         | Link | [Link](https://github.com/orgs/serpcompany/projects/120/views/1) | Link |
+| VA               | Link | [Link](https://github.com/orgs/serpcompany/projects/85) | Link |
+
 
 ***
 
@@ -37,30 +64,6 @@
 
 ***
   
-## SERP Teams
 
-### All Teams Resources:
-
-- 📺 [Intro to Github for Project Management](https://youtu.be/Dr9LlJBth_c)
-- 📕 [What the heck is EOS?
-](https://drive.google.com/file/d/1pJgDFLfal86mItDc0fo5cEMe8f4Hi5HD/view?usp=sharing)
-
-***
-
-### Team Specific Resources:
-
-| Teams            | Repository       | Project Board       | Slack Channel       |
-| :---------------- | ---------------- | ------------------- | ------------------- |
-| Accounts         | [Link](https://github.com/serpcompany/team-accounts/tree/main) | [Link](https://github.com/orgs/serpcompany/projects/121/views/1) | Link |
-| Creators         | Link | Link | [Link](slack://channel?team=T123456&id=C123456) |
-| Developers       | Link | Link | Link | 
-| SEO              | [Link](https://github.com/serpcompany/team-seo) | [Link](https://github.com/orgs/serpcompany/projects/102) | Link |
-| SEO > Link Outreach | Link | [Link](https://github.com/orgs/serpcompany/projects/100/views/1) | Link |
-| Websites > Design         | Link | Link | Link |
-| Websites > Front End         | Link | [Link](https://github.com/orgs/serpcompany/projects/120/views/1) | Link |
-| VA               | Link | [Link](https://github.com/orgs/serpcompany/projects/85) | Link |
-
-
-***
 
 

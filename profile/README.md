@@ -49,16 +49,16 @@
 
 ### Team Specific Resources:
 
-| Teams            | Repository       | Project Board       | Slack Channel       | Training |
-| :---------------- | ---------------- | ------------------- | ------------------- | ------------------- |
-| Accounts         | [Link](https://github.com/serpcompany/team-accounts/tree/main) | [Link](https://github.com/orgs/serpcompany/projects/121/views/1) | Link | Link |
-| Creators         | Link | Link | [Link](slack://channel?team=T123456&id=C123456) | Link |
-| Developers       | Link | Link | Link | Link |
-| SEO              | [Link](https://github.com/serpcompany/team-seo) | [Link](https://github.com/orgs/serpcompany/projects/102) | Link | Link |
-| SEO > Link Outreach | Link | [Link](https://github.com/orgs/serpcompany/projects/100/views/1) | Link | Link |
-| Websites > Design         | Link | Link | Link | Link |
-| Websites > Front End         | Link | [Link](https://github.com/orgs/serpcompany/projects/120/views/1) | Link | Link |
-| VA               | Link | [Link](https://github.com/orgs/serpcompany/projects/85) | Link | Link |
+| Teams            | Repository       | Project Board       | Slack Channel       |
+| :---------------- | ---------------- | ------------------- | ------------------- |
+| Accounts         | [Link](https://github.com/serpcompany/team-accounts/tree/main) | [Link](https://github.com/orgs/serpcompany/projects/121/views/1) | Link |
+| Creators         | Link | Link | [Link](slack://channel?team=T123456&id=C123456) |
+| Developers       | Link | Link | Link | 
+| SEO              | [Link](https://github.com/serpcompany/team-seo) | [Link](https://github.com/orgs/serpcompany/projects/102) | Link |
+| SEO > Link Outreach | Link | [Link](https://github.com/orgs/serpcompany/projects/100/views/1) | Link |
+| Websites > Design         | Link | Link | Link |
+| Websites > Front End         | Link | [Link](https://github.com/orgs/serpcompany/projects/120/views/1) | Link |
+| VA               | Link | [Link](https://github.com/orgs/serpcompany/projects/85) | Link |
 
 
 ***

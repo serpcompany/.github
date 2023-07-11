@@ -29,8 +29,9 @@
 | :----------------------- | -------------------------------------- | -----------| ------------- |
 | Boxing Undefeated       | [Link](http://boxingundefeated.com/)   | Link       | Link          |
 | Daft FM                 | [Link](https://daft.fm/)               | Link       | Link          |
-| Stylist Pick            | [Link](https://stylistpick.com/)       | Link       | Link          |
+| Devin Schumacher | Link | Link | Link |
 | Merchant Alternatives   | [Link](https://merchantalternatives.com/) | Link | Link |
+| Stylist Pick            | [Link](https://stylistpick.com/)       | Link       | Link          |
 | University of Guns      | [Link](https://universityofguns.com/)  | Link       | Link          |
 
 
@@ -38,7 +39,15 @@
   
 ## SERP Teams
 
-### Individual Team Resources:
+### All Teams Resources:
+
+- 📺 [Intro to Github for Project Management](https://youtu.be/Dr9LlJBth_c)
+- 📕 [What the heck is EOS? pdf
+](https://drive.google.com/file/d/1pJgDFLfal86mItDc0fo5cEMe8f4Hi5HD/view?usp=sharing)
+
+***
+
+### Team Specific Resources:
 
 | Teams            | Repository       | Project Board       | Slack Channel       | Training |
 | :---------------- | ---------------- | ------------------- | ------------------- | ------------------- |
@@ -49,7 +58,7 @@
 | SEO > Link Outreach | Link | [Link](https://github.com/orgs/serpcompany/projects/100/views/1) | Link | Link |
 | Websites > Design         | Link | Link | Link | Link |
 | Websites > Front End         | Link | [Link](https://github.com/orgs/serpcompany/projects/120/views/1) | Link | Link |
-| VA               | Link | [Link](https://github.com/orgs/serpcompany/projects/85) | [Link] | Link |
+| VA               | Link | [Link](https://github.com/orgs/serpcompany/projects/85) | Link | Link |
 
 
 ***

@@ -36,17 +36,21 @@
 
 ## SERP Brands
 
-| SERP Brands          | Website       | Repository       | Project Board |
-| :-------------- | ------------- | ---------------- | ------------- |
-| SERP           | [Link](https://serp.co/) | [Link](https://github.com/serpcompany/serp.co) | Link |
-| SERP AI        | [Link](https://serp.ai/) | [Link](https://github.com/serpcompany/serp.ai) | Link |
-| SERP App       | [Link](https://serp.app/) | [Link](https://github.com/serpcompany/serp-app) | Link |
-| SERP Bio       | N/A | [Link](https://github.com/serpcompany/serp.bio) | Link |
-| SERP Dev       | N/A | N/A | Link |
-| SERP Games     | [Link](https://serp.games/) | N/A | Link |
-| SERP Media     | N/A | N/A | Link |
-| SERP University| N/A | N/A | Link |
-| SERP.ly        | N/A | [Link](https://github.com/serpcompany/serp.ly) | Link |
+| SERP Brands          | Website/SAAS | Website       | Repository       | Project Board |
+| :-------------- | ---- | ------------- | ---------------- | ------------- |
+| SERP           | W | [Link](https://serp.co/) | [Link](https://github.com/serpcompany/serp.co) | Link |
+| SERP AI        | W | [Link](https://serp.ai/) | [Link](https://github.com/serpcompany/serp.ai) | Link |
+| SERP App       | W | [Link](https://serp.app/) | [Link](https://github.com/serpcompany/serp-app) | Link |
+| SERP Dev       | W | N/A | N/A | Link |
+| SERP FM       | W | N/A | N/A | Link |
+| SERP Games     | W | [Link](https://serp.games/) | N/A | Link |
+| SERP Media     | W | N/A | N/A | Link |
+| SERP University| W | N/A | N/A | Link |
+| SERP LOL | W | N/A | N/A | Link |
+| SERP Deals| W/S | N/A | N/A | Link |
+| SERP.ly        | SAAS | N/A | [Link](https://github.com/serpcompany/serp.ly) | Link |
+| SERP ID       | SAAS | N/A | [Link](https://github.com/serpcompany/serp.bio) | Link |
+
 
 ***
 

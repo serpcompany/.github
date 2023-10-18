@@ -12,6 +12,7 @@
 
 ### All Teams Resources:
 
+- [SERP Handbook](https://github.com/serpcompany/serp/handbook)
 - 📺 [Intro to Github for Project Management](https://youtu.be/Dr9LlJBth_c)
 - 📕 [What the heck is EOS?
 ](https://drive.google.com/file/d/1pJgDFLfal86mItDc0fo5cEMe8f4Hi5HD/view?usp=sharing)

@@ -39,15 +39,15 @@ Helpful links:
 | SERP           | W | [Link](https://serp.co/) | [Link](https://github.com/serpcompany/serp.co) | Link |
 | SERP AI        | W | [Link](https://serp.ai/) | [Link](https://github.com/serpcompany/serp.ai) | Link |
 | SERP App       | W | [Link](https://serp.app/) | [Link](https://github.com/serpcompany/serp-app) | Link |
-| SERP Dev       | W | N/A | N/A | Link |
-| SERP FM       | W | N/A | N/A | Link |
+| SERP Dev       | W | N/A | N/A | [Link](https://serp.dev) |
+| SERP FM       | W | N/A | N/A | [Link](https://serp.fm) |
 | SERP Games     | W | [Link](https://serp.games/) | N/A | Link |
-| SERP Media     | W | N/A | N/A | Link |
-| SERP University| W | N/A | N/A | Link |
-| SERP LOL | W | N/A | N/A | Link |
-| SERP Deals| W/S | N/A | N/A | Link |
+| SERP Media     | W | N/A | N/A | [Link](https://serp.media) |
+| SERP University| W | N/A | N/A | [Link](https://serpuniversity) |
+| SERP Deals| W/S | N/A | N/A | [Link](https://serp.deals) |
 | SERP.ly        | SAAS | N/A | [Link](https://github.com/serpcompany/serp.ly) | Link |
-| SERP ID       | SAAS | N/A | [Link](https://github.com/serpcompany/serp.bio) | Link |
+| SERP ID       | W | N/A | [Link](https://github.com/serpcompany/serp.bio) | Link |
+| SERP Site       | W | N/A | [Link](https://github.com/serpcompany/serp.site) | Link |
 
 
 ***
@@ -58,7 +58,7 @@ Helpful links:
 | :----------------------- | -------------------------------------- | -----------| ------------- |
 | Boxing Undefeated       | [Link](http://boxingundefeated.com/)   | Link       | Link          |
 | Daft FM                 | [Link](https://daft.fm/)               | Link       | Link          |
-| Devin Schumacher | Link | Link | Link |
+| Devin Schumacher        | [Link](https://devinschumacher.com) |  | Link       | Link         |
 | Merchant Alternatives   | [Link](https://merchantalternatives.com/) | Link | Link |
 | Stylist Pick            | [Link](https://stylistpick.com/)       | Link       | Link          |
 | University of Guns      | [Link](https://universityofguns.com/)  | Link       | Link          |

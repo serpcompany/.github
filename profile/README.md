@@ -39,12 +39,12 @@ Helpful links:
 | SERP           | W | [Link](https://serp.co/) | [Link](https://github.com/serpcompany/serp.co) | Link |
 | SERP AI        | W | [Link](https://serp.ai/) | [Link](https://github.com/serpcompany/serp.ai) | Link |
 | SERP App       | W | [Link](https://serp.app/) | [Link](https://github.com/serpcompany/serp-app) | Link |
-| SERP Dev       | W | N/A | N/A | [Link](https://serp.dev) |
-| SERP FM       | W | N/A | N/A | [Link](https://serp.fm) |
+| SERP Dev       | W | [Link](https://serp.dev) | N/A | Link |
+| SERP FM       | W | [Link](https://serp.fm) | N/A | Link |
 | SERP Games     | W | [Link](https://serp.games/) | N/A | Link |
-| SERP Media     | W | N/A | N/A | [Link](https://serp.media) |
-| SERP University| W | N/A | N/A | [Link](https://serpuniversity) |
-| SERP Deals| W/S | N/A | N/A | [Link](https://serp.deals) |
+| SERP Media     | W | [Link](https://serp.media) | N/A | Link |
+| SERP University| W | [Link](https://serpuniversity) | N/A | Link |
+| SERP Deals| W/S | [Link](https://serp.deals) | N/A | Link |
 | SERP.ly        | SAAS | N/A | [Link](https://github.com/serpcompany/serp.ly) | Link |
 | SERP ID       | W | N/A | [Link](https://github.com/serpcompany/serp.bio) | Link |
 | SERP Site       | W | N/A | [Link](https://github.com/serpcompany/serp.site) | Link |

@@ -1,0 +1,40 @@
+name: @nuxtjs/html-validator
+
+on:
+  pull_request:
+    branches:
+      - main
+      - dev
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18.12.0'
+
+      - name: Install pnpm
+        run: npm install -g pnpm
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build project
+        run: pnpm build
+
+      - name: Run HTML validator
+        run: pnpm html-validator > html-validator-report.txt
+
+      - name: Upload HTML validator report
+        uses: actions/upload-artifact@v2
+        with:ls
+        
+          name: html-validator-report
+          path: html-validator-report.txt

@@ -1,4 +1,4 @@
-name: Lint Nuxt Project
+name: Lint Nuxt project
 
 on:
   pull_request:
@@ -6,10 +6,12 @@ on:
     branches:
       - main
       - dev
+  workflow_call:
 
 jobs:
   eslint:
     runs-on: ubuntu-latest
+    if: github.repository != 'serpcompany/.github'
     steps:
       - uses: actions/checkout@v4
       - name: Install pnpm

@@ -1,6 +1,5 @@
 // checks for duplicate slugs in the frontmatter of astro
 // lists all of the duplicate slugs all at once so you can delete them before running pnpm build
-
 const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
@@ -22,6 +21,19 @@ function getAllFiles(dir) {
   return results;
 }
 
+function normalizeSlug(slug) {
+  // Remove leading and trailing slashes, convert to lowercase
+  return slug.replace(/^\/|\/$/g, '').toLowerCase();
+}
+
+function generateSlug(filePath, frontmatterSlug) {
+  if (frontmatterSlug) {
+    return normalizeSlug(frontmatterSlug);
+  }
+  const fileName = path.basename(filePath, '.md');
+  return normalizeSlug(fileName);
+}
+
 function checkDuplicateSlugs() {
   const files = getAllFiles(contentDir);
   const slugs = {};
@@ -30,7 +42,7 @@ function checkDuplicateSlugs() {
     if (path.extname(file) === '.md') {
       const content = fs.readFileSync(file, 'utf8');
       const { data } = matter(content);
-      const slug = data.slug || path.basename(file, '.md');
+      const slug = generateSlug(file, data.slug);
 
       if (slugs[slug]) {
         slugs[slug].push(file);
@@ -45,7 +57,7 @@ function checkDuplicateSlugs() {
   if (duplicates.length > 0) {
     console.log('Duplicate slugs found:');
     duplicates.forEach(([slug, files]) => {
-      console.log(`\nSlug: ${slug}`);
+      console.log(`\nSlug: /${slug}/`);
       files.forEach((file) => console.log(`  ${file}`));
     });
   } else {
@@ -54,3 +66,4 @@ function checkDuplicateSlugs() {
 }
 
 checkDuplicateSlugs();
+

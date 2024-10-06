@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://best.serp.co/sitemap-index.xml *** update this ***
+Sitemap: https://best.serp.co/sitemap-index.xml
+Sitemap: https://best.serp.co/sitemap-0.xml

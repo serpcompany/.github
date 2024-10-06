@@ -1,0 +1,24 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+
+const metadata = {
+  title: 'Devin Schumacher', // *** update this ***
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <Hero>
+    <Fragment slot='title'>Devin Schumacher</Fragment> <!-- *** update this *** -->
+  </Hero>
+
+  <!-- customize these -->
+  <a href=''><h2 class='container mx-auto text-2xl font-extrabold'>Reviews</h2></a>
+  <BlogLatestPosts collection='company' />
+
+  <BlogLatestPosts title='Posts' collection='post' />
+
+  <BlogLatestPosts title='Shop' collection='shop' />
+</Layout>

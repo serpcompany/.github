@@ -22,7 +22,8 @@ import { ANALYTICS, SITE } from './src/utils/config.ts';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const whenExternalScripts = (items = []) =>
-  ANALYTICS.vendors.googleAnalytics.id && ANALYTICS.vendors.googleAnalytics.partytown
+  ANALYTICS.vendors.googleAnalytics.id &&
+  ANALYTICS.vendors.googleAnalytics.partytown
     ? Array.isArray(items)
       ? items.map((item) => item())
       : [items()]
@@ -83,5 +84,5 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [readingTimeRemarkPlugin, externalAnchorPlugin],
     rehypePlugins: [responsiveTablesRehypePlugin],
-  }
+  },
 });

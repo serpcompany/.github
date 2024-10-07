@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -18,11 +20,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install --save-dev @commitlint/config-conventional @commitlint/cli
+          npm install --save-dev @commitlint/config-conventional @commitlint/cli commitlint-plugin-function-rules
 
       - name: Validate branch name
         run: |
-          branch_name=$(git symbolic-ref --short HEAD)
+          branch_name=$(git rev-parse --abbrev-ref HEAD)
           if [[ ! $branch_name =~ ^[a-z]{2}/[0-9]+/[a-z0-9-]+$ ]]; then
             echo "Invalid branch name: $branch_name"
             echo "
@@ -32,6 +34,7 @@ jobs:
             "
             exit 1
           fi
+          echo "BRANCH_NAME=$branch_name" >> $GITHUB_ENV
 
       - name: Run commitlint
         run: |
@@ -43,4 +46,11 @@ jobs:
             echo "No commitlint config found in ./configs/ or ./"
             exit 1
           fi
-          npx commitlint --config $config_path --from $(git merge-base origin/main HEAD) --to HEAD
+          
+          if [ "${{ github.event_name }}" == "pull_request" ]; then
+            base_sha=$(git merge-base ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }})
+          else
+            base_sha=$(git rev-parse HEAD~1)
+          fi
+          
+          npx commitlint --config $config_path --from $base_sha --to HEAD --verbose

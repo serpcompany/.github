@@ -1,4 +1,4 @@
-# Gi Team Workflow
+# Git Workflow
 
 This document outlines the team's Gitflow for working collaboratively together.
 

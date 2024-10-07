@@ -1,5 +1,4 @@
 module.exports = {
-  extends: ['@commitlint/config-conventional'],
   plugins: ['commitlint-plugin-function-rules'],
   rules: {
     'type-enum': [
@@ -9,9 +8,6 @@ module.exports = {
     ],
     'type-case': [2, 'always', 'lower-case'],
     'subject-case': [2, 'always', 'sentence-case'],
-    // Removed the following rules
-    // 'subject-empty': [2, 'never'],
-    // 'type-empty': [2, 'never'],
     'subject-full-stop': [2, 'never', '.'],
     'body-leading-blank': [2, 'always'],
     'footer-leading-blank': [1, 'always'],

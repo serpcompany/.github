@@ -1,0 +1,38 @@
+name: Commitlint
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          npm install --save-dev @commitlint/config-conventional @commitlint/cli
+
+      - name: Validate branch name
+        run: |
+          branch_name=$(git symbolic-ref --short HEAD)
+          if [[ ! $branch_name =~ ^[a-z]{2}/[0-9]+/[a-z0-9-]+$ ]]; then
+            echo "Invalid branch name: $branch_name"
+            echo "
+            Remember to link every issue you're working on to a branch
+            and follow the git workflow guidelines & branch name convention.
+            - Reference: https://github.com/serpcompany/.github/blob/main/contributing/git-workflow.md
+            "
+            exit 1
+          fi
+
+      - name: Run commitlint
+        run: |
+          npx commitlint --from $(git merge-base origin/main HEAD) --to HEAD

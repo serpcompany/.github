@@ -34,7 +34,7 @@ module.exports = {
         const regex = new RegExp(`(${keywords.join('|')})\\s+#\\d+`, 'i');
 
         if (parsed.references.some(ref => ref.issue === issueNumber) || regex.test(fullCommitMessage)) {
-          return [true];
+          return [true]; // Valid case
         }
         return [false, `Commit message should reference the issue #${issueNumber} or use GitHub keywords (e.g., "Fixes #${issueNumber}")`];
       }

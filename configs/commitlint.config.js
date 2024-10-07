@@ -1,4 +1,3 @@
-// commitlint.config.js
 module.exports = {
   extends: ['@commitlint/config-conventional'],
   plugins: ['commitlint-plugin-function-rules'],
@@ -16,7 +15,8 @@ module.exports = {
     'footer-leading-blank': [1, 'always'],
     'function-rules/issue-reference': [
       2,
-      (parsed, when, value) => {
+      'always',
+      ({ subject, body, footer }) => {
         const branchName = process.env.BRANCH_NAME;
         if (!branchName) {
           return [true, 'Unable to check branch name, skipping issue reference check'];
@@ -28,13 +28,13 @@ module.exports = {
         }
 
         const issueNumber = branchName.split('/')[1];
-        const fullCommitMessage = `${parsed.header}\n\n${parsed.body}\n\n${parsed.footer}`;
+        const fullCommitMessage = `${subject}\n\n${body}\n\n${footer}`;
 
         const keywords = ['close', 'closes', 'closed', 'fix', 'fixes', 'fixed', 'resolve', 'resolves', 'resolved'];
         const regex = new RegExp(`(${keywords.join('|')})\\s+#\\d+`, 'i');
 
-        if (parsed.references.some(ref => ref.issue === issueNumber) || regex.test(fullCommitMessage)) {
-          return [true]; // Valid case
+        if (regex.test(fullCommitMessage)) {
+          return [true, 'Issue reference is valid'];
         }
         return [false, `Commit message should reference the issue #${issueNumber} or use GitHub keywords (e.g., "Fixes #${issueNumber}")`];
       }

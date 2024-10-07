@@ -11,6 +11,7 @@ module.exports = {
     'subject-full-stop': [2, 'never', '.'],
     'body-leading-blank': [2, 'always'],
     'footer-leading-blank': [1, 'always'],
-    "references-empty": [2, "never"],
+    'references-empty': [2, 'never'],
+    'function-rules/issue-reference': [2, 'never'],
   }
 };

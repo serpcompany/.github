@@ -7,6 +7,9 @@ jobs:
   manage-labels:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        
       - name: Synchronize labels
         uses: julbme/gh-action-manage-label@v1.0.1
         with:

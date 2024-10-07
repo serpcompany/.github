@@ -35,4 +35,12 @@ jobs:
 
       - name: Run commitlint
         run: |
-          npx commitlint --from $(git merge-base origin/main HEAD) --to HEAD
+          if [ -f "./configs/commitlint.config.js" ]; then
+            config_path="./configs/commitlint.config.js"
+          elif [ -f "./commitlint.config.js" ]; then
+            config_path="./commitlint.config.js"
+          else
+            echo "No commitlint config found in ./configs/ or ./"
+            exit 1
+          fi
+          npx commitlint --config $config_path --from $(git merge-base origin/main HEAD) --to HEAD

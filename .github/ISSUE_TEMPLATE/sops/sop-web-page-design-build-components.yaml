@@ -1,0 +1,88 @@
+name: "Design/build Web Pages"
+description: "SOP: Designing new web pages/modules using predefined components."
+title: "[SOP]: Design/build page template(s) for {ModuleName}"
+labels: ["documentation", "frontend"]
+assignees: [] 
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Step 1: Get Tools Ready
+        Use a pad of paper, iPad, or tools like [Whimsical](https://whimsical.com/) for sketching.
+
+  - type: dropdown
+    id: choose-module
+    attributes:
+      label: "Choose a module"
+      description: "Select the module you will work on."
+      options:
+        - "Module 1"
+        - "Module 2"
+        - "Module 3"
+    validations:
+      required: true
+
+  - type: textarea
+    id: list-pages
+    attributes:
+      label: "List Pages"
+      description: "List the pages that will be created for this module."
+      placeholder: "Page 1, Page 2, etc."
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Step 4: List Base Fields for Each Page
+
+  - type: textarea
+    id: base-fields
+    attributes:
+      label: "Base Fields Matrix"
+      description: "Identify and list base fields for each (module, page) combination."
+      placeholder: "Module 1, Page 1: Field A, Field B..."
+
+  - type: textarea
+    id: design-reference
+    attributes:
+      label: "Design Reference"
+      description: "Link or list design references for each page."
+      placeholder: "e.g., Figma link, Sketch URL"
+
+  - type: textarea
+    id: wireframe-sketch
+    attributes:
+      label: "Wireframe Sketches"
+      description: "Describe or upload sketches for each page."
+      placeholder: "Wireframe description, or link to design files."
+
+  - type: input
+    id: eraser-check
+    attributes:
+      label: "Sketches Uploaded to eraser.io"
+      description: "Confirm that the sketches have been uploaded and versioned."
+      placeholder: "Link to eraser.io or version control"
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Step 7: Match Components and Blocks
+
+  - type: textarea
+    id: component-blocks
+    attributes:
+      label: "Component/Block Combinations"
+      description: "List the matching component and block for each base field."
+      placeholder: "Component 1 -> Block A..."
+
+  - type: checkboxes
+    id: build-page
+    attributes:
+      label: "Tasks for Building Page"
+      description: "Checklist for building the page from the components."
+    options:
+      - label: "Move sketches to code"
+        required: true
+      - label: "Assign components to fields"
+      - label: "Create layouts"
+      - label: "Test and review"

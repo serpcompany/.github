@@ -30,7 +30,7 @@ jobs:
   deploy:
     needs: build
     runs-on: self-hosted
-    if: github.repository != 'serpcompany/allmoviestvshowslists.storage.googleapis.com'
+    if: github.repository == 'serpcompany/allmoviestvshowslists.storage.googleapis.com'
     steps:
       - name: Deploy to GCS
         env:

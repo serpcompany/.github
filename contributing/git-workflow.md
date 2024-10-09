@@ -2,7 +2,7 @@
 
 This document outlines the team's Gitflow for working collaboratively together.
 
-## Steps
+**Git workflow steps:**
 
 1. `Issue`: Choose an issue to work on.
 2. `Branch`: Create a branch from the issue. The branch source should be `dev`.
@@ -11,11 +11,14 @@ This document outlines the team's Gitflow for working collaboratively together.
 6. `Review`: After it's been reviewed and merged, delete the branch.
 7. `Repeat`: Grab the next issue for the next issue.
 
-> Before you get started working on any repository, please make sure you enable format on save for your editor.
+
+**Resources:**
+- [An example of the workfow (w/ commands)](https://gist.github.com/devinschumacher/26a05e6c1d8976981a42f28f65eecdb3#file-2_example-md)
+
 
 ---
 
-### Issue
+## Issue
 
 Display a list of available issues:
 
@@ -33,7 +36,7 @@ gh issue list
 > If there's no issue for you to work on, you can create one with `gh issue create` followed by a few interactive prompts.
 
 
-### Branch
+## Branch
 Create a feature branch from an issue to work on. In most cases, the branch _source_ should be `dev`.
 
 Follow the branch naming convention: `<your-initials>/<issue-number>/<branch-name>`
@@ -68,7 +71,7 @@ devin:~/repos/projects/serp-ui-nuxt (ds/32/company-index)$
 ```
 
 
-### Develop
+## Develop
 Work locally on your branch. Follow our [git commit conventions](https://github.com/serpcompany/serp/blob/main/git-commit-conventions.md).
 
 1. Do some work, stage changes.
@@ -92,18 +95,14 @@ git commit
 > Always fetch/sync your branch with the remote source branch before pushing to minimize conflicts.
 
 
-### Push/PR
+## Push/PR
 Create a PR when finished (or a draft PR if can't finish in one session)
 ``bash
 gh pr create
 
 
-### Review
+## Review
 After it's been reviewed and merged, delete the branch from local and remote.
 
-### Repeat
+## Repeat
 Grab the next issue for the next issue!
-
-## Resources
-
-- [An example of the workfow (w/ commands)](https://gist.github.com/devinschumacher/26a05e6c1d8976981a42f28f65eecdb3#file-2_example-md)

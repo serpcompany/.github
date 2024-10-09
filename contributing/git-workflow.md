@@ -97,7 +97,8 @@ git commit
 
 ## Push/PR
 Create a PR when finished (or a draft PR if can't finish in one session)
-``bash
+
+```bash
 gh pr create
 ```
 

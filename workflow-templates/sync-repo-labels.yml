@@ -7,4 +7,6 @@ on:
 jobs:
   sync-repo-labels:
     uses: serpcompany/.github/.github/workflows/sync-repo-labels.yml@main
+    with:
+      config-path: .github/config/labels.yml
    

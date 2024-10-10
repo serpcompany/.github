@@ -1,26 +1,23 @@
-name: Sync Github labels
+# .github/workflows/sync-repo-labels.yml in serpcompany/.github
+name: Sync Github Repo Labels
 
 on:
-  workflow_dispatch:
+  workflow_call:
 
 jobs:
   manage-labels:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout current repository
-        uses: actions/checkout@v2
-
-      - name: Checkout serpcompany/.github repository
+      - name: Checkout .github repository
         uses: actions/checkout@v2
         with:
           repository: serpcompany/.github
-          path: serpcompany/.github
-        
+          path: .github-repo
+
       - name: Synchronize labels
         uses: julbme/gh-action-manage-label@v1.0.1
         with:
-          from: .serpcompany/.github/.github/config/labels.yml
+          from: .github-repo/.github/config/labels.yml
           skip_delete: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            

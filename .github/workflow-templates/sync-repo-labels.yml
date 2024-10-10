@@ -1,0 +1,10 @@
+# workflow-templates/sync-repo-labels.yml
+name: Sync Github Repo Labels
+
+on:
+  workflow_dispatch:
+   
+jobs:
+  sync-repo-labels:
+    uses: serpcompany/.github/.github/workflows/sync-repo-labels.yml@main
+   

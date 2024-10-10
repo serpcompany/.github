@@ -2,6 +2,12 @@ name: Sync Github labels
 
 on:
   workflow_call:
+    inputs:
+      config-path:
+        default: '.github/config/labels.yml'
+        required: false
+        type: string
+
 
 jobs:
   manage-labels:

@@ -1,5 +1,6 @@
 {
   "name": "Sync Github Repo Labels",
   "description": "Sync this repo's labels with the main template repo's labels.",
-  "categories": ["SERP"]
+  "categories": ["SERP"],
+  "iconName": "serp-icon"
 }

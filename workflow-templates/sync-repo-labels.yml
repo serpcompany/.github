@@ -6,9 +6,5 @@ on:
 jobs:
   sync-repo-labels:
     uses: serpcompany/.github/.github/workflows/sync-repo-labels.yml@main
-    inputs:
-      config-path:
-        required: true
-        type: string
-
+    
    

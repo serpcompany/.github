@@ -1,16 +1,11 @@
 name: '@nuxtjs/html-validator'
 
 on:
-  pull_request:
-    branches:
-      - main
-      - dev
-  workflow_dispatch:
+  workflow_call:
 
 jobs:
   validate:
     runs-on: ubuntu-latest
-    if: github.repository != 'serpcompany/.github'
 
     steps:
       - name: Checkout code

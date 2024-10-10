@@ -1,9 +1,7 @@
 name: Deploy Astro
 
 on:
-  # push:
-  #   branches: [ main ]
-  workflow_dispatch:
+  workflow_call:
 
 permissions:
   contents: read
@@ -13,7 +11,6 @@ permissions:
 jobs:
   build:
     runs-on: self-hosted
-    if: github.repository != 'serpcompany/.github'
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v3
@@ -27,7 +24,6 @@ jobs:
   deploy:
     needs: build
     runs-on: self-hosted
-    if: github.repository != 'serpcompany/.github'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

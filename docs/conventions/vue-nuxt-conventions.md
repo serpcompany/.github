@@ -14,12 +14,13 @@
 
 ### Conventions
 
-Folder structure pattern: `tests/<test-type>/<category-of-thing>/*`
+**File/folder naming**: `tests/<test-type>/<category-of-thing>/*.test.js`
 
 ```
-~/tests/unit/utils/
-~/tests/unit/components/
+~/tests/unit/utils/*.test.js
+~/tests/unit/components/*.test.js
 ```
+
 
 ### Unit tests
 

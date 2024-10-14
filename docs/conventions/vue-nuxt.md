@@ -9,12 +9,14 @@
 
 
 ## Testing
+
 - Write all vue/nuxt code for our websites and applications following (TDD) Test Driven Development.
 - Have have test file (`*.test.js`) for every "real" code file that you write: this allows Vitest to know about the files and get a generate a more accurate coverate report.
 
 #### Tech stack
 
-- Vitest
+- Vitest - [reference](https://vitest.dev/)
+- Vitest UI (optional) - [reference](https://vitest.dev/guide/ui.html)
 - Vue testing library
 
 #### Conventions

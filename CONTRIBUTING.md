@@ -7,7 +7,7 @@ If you want to contribute/collaborate/work on projects with our team, please fol
 - [git commit conventions](git-commit-conventions)
 
 **Subject area spcific:**
-- [Vue/Nuxt](/docs/contributing/vue-nuxt.md)
+- [Vue/Nuxt](vue-nuxt)
 
 
 
@@ -17,3 +17,4 @@ Links TOC
 
 [git-workflow]: /docs/contributing/git-workflow.md
 [git-commit-conventions]: /docs/contributing/git-commit-conventions.md
+[vue-nuxt]: docs/contributing/vue-nuxt.md

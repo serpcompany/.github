@@ -6,10 +6,10 @@ This document outlines the team's Gitflow for working collaboratively together.
 
 1. `Issue`: Choose an issue to work on.
 2. `Branch`: Create a branch from the issue. The branch source should be `dev`.
-3. `Develop`: Work locally on your branch, following our [git commit guidelines](https://github.com/serpcompany/serp/blob/main/git-commit-conventions.md).
+3. `Develop`: Work locally on your branch, following our [git commit guidelines]().
 4. `Push/PR`: When finished, push your branch to the remote with a PR (or a draft PR if can't finish in one session)
-6. `Review`: After it's been reviewed and merged, delete the branch.
-7. `Repeat`: Grab the next issue for the next issue.
+5. `Review`: After it's been reviewed and merged, delete the branch.
+6. `Repeat`: Grab the next issue for the next issue.
 
 
 **Resources:**
@@ -25,7 +25,10 @@ Display a list of available issues:
 ```bash
 gh issue list
 ```
-<img width="773" alt="image" src="https://private-user-images.githubusercontent.com/45643901/371811559-dc7ab816-f937-45cd-bced-2f30db39b206.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjg0NDMzMTYsIm5iZiI6MTcyODQ0MzAxNiwicGF0aCI6Ii80NTY0MzkwMS8zNzE4MTE1NTktZGM3YWI4MTYtZjkzNy00NWNkLWJjZWQtMmYzMGRiMzliMjA2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMDklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDA5VDAzMDMzNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU0MTM3MDgxNDRlZGY0NmZkZDI1ZGFjZTdlNDNmMTI1OGNmYjU5NTQ5OGNlNmIzMzYyYWQ5ZDA2Njk4MjJiZTQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.UVGB4tdH2tjIowCeYh53OTdnz4gaDukGXtfbPPM3ZoI">
+<img width="773" alt="image" src="https://private-user-images.githubusercontent.com/45643901/371811559-dc7ab816-f937-45cd-bced-2f30db39b206.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjkwNjA2MTYsIm5iZiI6MTcyOTA2MDMxNiwicGF0aCI6Ii80NTY0MzkwMS8zNzE4MTE1NTktZGM3YWI4MTYtZjkzNy00NWNkLWJjZWQtMmYzMGRiMzliMjA2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDE2VDA2MzE1NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNiMmZiZWUwZTc1NmY0NWRhNWQ4NzBkMmMxNWU5YWI0Mjk3ZTQ1MjE4YmQzYzgzZjg2OGQxYThmN2JiYWM4YTkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.NLg_eFAMgLF939AeE7rCnxFXiPGsERXiIKilVigdYTM">
+
+<br>
+<br>
 
 > Note:
 >
@@ -72,7 +75,7 @@ devin:~/repos/projects/serp-ui-nuxt (ds/32/company-index)$
 
 
 ## Develop
-Work locally on your branch. Follow our [git commit conventions](https://github.com/serpcompany/serp/blob/main/git-commit-conventions.md).
+Work locally on your branch. Follow our [git commit conventions][git-commit-conventions].
 
 1. Do some work, stage changes.
 ```bash
@@ -108,3 +111,8 @@ After it's been reviewed and merged, delete the branch from local and remote.
 
 ## Repeat
 Grab the next issue for the next issue!
+
+
+<!-- Links TOC -->
+
+[git-commit-conventions]: /docs/contributing/git-commit-conventions.md

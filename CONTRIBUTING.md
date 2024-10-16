@@ -13,9 +13,8 @@ If you want to contribute/collaborate/work on projects with our team, please fol
 
 <!--
 Links TOC
-https://github.com/serpcompany/.github/blob/main/
 -->
 
-[git-workflow]: docs/contributing/git-workflow.md
-[git-commit-conventions]: https://github.com/serpcompany/.github/blob/main/docs/contributing/git-commit-conventions.md
-[vue-nuxt]: https://github.com/serpcompany/.github/blob/main/docs/contributing/vue-nuxt.md
+[git-workflow]: /docs/contributing/git-workflow.md
+[git-commit-conventions]: /docs/contributing/git-commit-conventions.md
+[vue-nuxt]: /docs/contributing/vue-nuxt.md

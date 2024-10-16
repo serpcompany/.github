@@ -16,6 +16,6 @@ Links TOC
 https://github.com/serpcompany/.github/blob/main/
 -->
 
-[git-workflow]: ./docs/contributing/git-workflow.md
+[git-workflow]: https://github.com/serpcompany/.github/blob/main/docs/contributing/git-workflow.md
 [git-commit-conventions]: https://github.com/serpcompany/.github/blob/main/docs/contributing/git-commit-conventions.md
 [vue-nuxt]: https://github.com/serpcompany/.github/blob/main/docs/contributing/vue-nuxt.md

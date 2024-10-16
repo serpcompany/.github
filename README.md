@@ -1,3 +1,3 @@
 # README
 
-Want to collaborate with our team? See: [CONTRIBUTING.md](CONTRIBUTING.md) file.
+Want to collaborate with our team? Start here: [CONTRIBUTING.md](CONTRIBUTING.md)

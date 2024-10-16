@@ -5,10 +5,10 @@ If you want to contribute/collaborate/work on projects with our team, please fol
 **SERP Team collaboration:**
 - [git workflow](git-workflow)
 - [git commit conventions](git-commit-conventions)
-- [git branch conventions] # TODO: This needs to be made. See the [git-commit-conventions] for a branch example.
 
 **Subject area spcific:**
 - [Vue/Nuxt](/docs/contributing/vue-nuxt.md)
+
 
 
 <!--

@@ -1,11 +1,47 @@
 # vue/nuxt
 
-## Conventions / Best Practices
+**Table of Contents:**
+- [Conventions](#conventions)
+- [Techstack](#techstack)
+  - [Project](#project)
+  - [SRE](#sre)
+  - [Ancilliaries](#ancilliaries)
+  - [CICD](#cicd)
+- [Testing](#testing)
+  - [Test Conventions](#test-conventions)
+  - [Unit tests](#unit-tests)
 
-- Component names have a minimum of 2 words
-- Component filenames are `PascalCase`
-- Component element names (ie: when you use a component inside another component/page/etc.) are `kebab-case`
-- Components should focus on rendering template HTML by moving component logic to `utils/`, 
+
+---
+
+## Conventions
+
+- Component names have a 2-word minimum
+- Component filenames are `PascalCase`, Example: `components/MyComponent.vue`
+- Component element names, ie: when you use a component inside another component/page/etc. should be written in: `kebab-case`, Example: `<my-component/>`
+
+### Components should focus on rendering template HTML by moving component logic to `utils/`
+**Example**: Move dynamic classes from the `<template>` area to computed properties: 
+```
+# incorrect
+  <template>
+  ...
+  :class="{ 'bg-black': isLoggedIn, 'bg-white': !isLoggedIn}"
+  </template>
+
+
+# correct
+  <template>
+  ...
+  :class="loginStatus"
+  </template>
+
+  <script>
+  const loginStatus = ...
+  </script>
+```
+
+
 - Elements have aria role labels - `#accessibility`
 - Elements have `loading="lazy"` on images below the fold - `#performance`
 - Elements have responsive tailwind classes for padding, text sizes, etc. - `#performance`
@@ -16,7 +52,7 @@
 
 ### Project
 - [Nuxt](https://nuxt.com/) - Web Framework
-- [NuxtUI](https://ui.nuxt.com/getting-started) + [NuxtUI Pro](https://ui.nuxt.com/pro/getting-started) - Component library
+- [shadcn-vue](https://www.shadcn-vue.com/) + SERP UI Nuxt - Component Libraries
 - [TailwindCSS](https://tailwindcss.com/) - CSS Utility
 - [Postgres](https://www.postgresql.org/) - Database
 - [Drizzle](https://orm.drizzle.team/) - DB ORM

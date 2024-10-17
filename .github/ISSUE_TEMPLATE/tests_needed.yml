@@ -1,35 +1,26 @@
-name: Tests Needed
+name: Tests Requested
 description: Use this template to request test code to be written for an item.
-title: "[tests] add tests for: <item>"
+title: "[cicd] write tests for item"
 labels: ["CICD"]
 
 body:
   - type: markdown
     attributes:
       value: |
-        ## Test Code Request
+        ## Tests Requested
 
         Thank you for requesting test code to be written. Please fill out the form below.
 
         *After the test code is written, the committer should upload a screenshot or file showing 100% coverage in the **Coverage Report** section below.*
 
-  - type: input
-    id: item_name
-    attributes:
-      label: "Item Name"
-      description: "Provide the name of the item that needs test code."
-      placeholder: "Enter item name"
-    validations:
-      required: true
-
   - type: textarea
     id: description
     attributes:
-      label: "Item Description"
+      label: "Description"
       description: "Describe the item and any specific requirements for the test code."
       placeholder: "Provide additional details"
     validations:
-      required: false
+      required: true
 
   - type: dropdown
     id: test_types
@@ -55,7 +46,5 @@ body:
   - type: input
     id: coverage_report
     attributes:
-      label: "Upload Coverage Report"
-      description: "Upload a screenshot or file showing 100% coverage."
-    validations:
-      required: true
+      label: "Coverage report/screenshot"
+      description: "Upload a screenshot or report confirming test coverage on item on commit."

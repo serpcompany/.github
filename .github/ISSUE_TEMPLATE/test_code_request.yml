@@ -60,12 +60,3 @@ body:
       description: "Upload a screenshot or file showing 100% coverage."
     validations:
       required: true
-
-  - type: checkboxes
-    id: code_of_conduct
-    attributes:
-      label: "Code of Conduct"
-      description: "Please agree to the Code of Conduct before submitting."
-      options:
-        - label: "I agree to follow the Code of Conduct"
-          required: true

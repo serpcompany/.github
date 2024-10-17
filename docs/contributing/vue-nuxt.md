@@ -91,6 +91,7 @@
 **Resources:**
 
 - [Vue Masterclass Course](https://www.udemy.com/course/vue-masterclass/learn): Good course on TDD with Vue & Vitest.
+- Use the [Testing Playground](https://chromewebstore.google.com/detail/testing-playground/hejbmebodbijjdhflfknehhcgaklhano?hl=en) extension to get proper test queries for DOM elements
 
 
 ### Test Conventions

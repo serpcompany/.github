@@ -32,7 +32,7 @@ body:
     validations:
       required: false
 
-  - type: checkboxes
+  - type: dropdown
     id: test_types
     attributes:
       label: "Type of Test"

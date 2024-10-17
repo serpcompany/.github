@@ -32,16 +32,17 @@ body:
     validations:
       required: false
 
-  - type: dropdown
+  - type: checkboxes
     id: test_types
     attributes:
-      label: "Type of Test Needed"
-      description: "Select the type(s) of tests that need to be written."
+      label: "Type of Test"
+      description: "Select the type of tests that need to be written."
       multiple: true
       options:
-        - "Unit Test"
-        - "Integration Test"
-        - "E2E Test"
+        - "unit"
+        - "integration"
+        - "E2E"
+        - "unsure"
     validations:
       required: true
 

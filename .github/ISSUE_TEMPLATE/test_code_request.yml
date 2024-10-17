@@ -52,7 +52,7 @@ body:
 
         *To be completed by the committer after implementing the test code.*
 
-  - type: file
+  - type: input
     id: coverage_report
     attributes:
       label: "Upload Coverage Report"

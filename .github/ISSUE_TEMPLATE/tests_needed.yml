@@ -1,7 +1,7 @@
 name: Tests Requested
 description: Use this template to request test code to be written for an item.
 title: "[cicd] write tests for item"
-labels: ["CICD"]
+labels: ["CICD ⚙️"]
 
 body:
   - type: markdown

@@ -3,20 +3,20 @@
 If you want to contribute/collaborate/work on projects with us, read & follow the links below.
 
 **Collaboration:**
-- [git workflow][git-workflow]
-- [git commit conventions][git-commit-conventions]
+1. [git workflow][git-workflow]
+2. [git commit conventions][git-commit-conventions]
+3. [tools][our-tools]
+4. [tips][tips]
 
 **Subject area specific:**
 - [vue/nuxt][vue-nuxt]
 
-**Tools (optional)**
-- [our tools][our-tools]
 
-<!--
-Links TOC
--->
+
+<!-- links -->
 
 [git-workflow]: /docs/contributing/git-workflow.md
 [git-commit-conventions]: /docs/contributing/git-commit-conventions.md
 [vue-nuxt]: /docs/contributing/vue-nuxt.md
 [our-tools]: /docs/contributing/tools.md
+[tips]: /docs/contributing/tips.md

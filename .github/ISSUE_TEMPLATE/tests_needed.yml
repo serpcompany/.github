@@ -1,8 +1,7 @@
-name: Test Code Request
+name: Tests Needed
 description: Use this template to request test code to be written for an item.
-title: "[TEST CODE] Request for test code for [Item Name]"
-labels: ["test code", "needs triage"]
-assignees: ["username"]
+title: "[tests] add tests for: <item>"
+labels: ["CICD"]
 
 body:
   - type: markdown

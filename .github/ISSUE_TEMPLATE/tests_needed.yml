@@ -1,6 +1,6 @@
 name: Tests Requested
 description: Use this template to request test code to be written for an item.
-title: "[cicd] write tests for item"
+title: "[cicd] write tests for <item>"
 labels: ["CICD ⚙️"]
 
 body:
@@ -17,8 +17,7 @@ body:
     id: description
     attributes:
       label: "Description"
-      description: "Describe the item and any specific requirements for the test code."
-      placeholder: "Provide additional details"
+      description: "Describe the item that needs tests written and/or the problems that occurred which prompted the need to file this request, so the developer has context behind tests to write."
     validations:
       required: true
 
@@ -31,10 +30,10 @@ body:
       options:
         - "unit"
         - "integration"
-        - "E2E"
+        - "e2e"
         - "unsure"
     validations:
-      required: true
+      required: false
 
   - type: markdown
     attributes:

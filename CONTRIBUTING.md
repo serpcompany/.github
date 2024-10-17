@@ -19,4 +19,4 @@ Links TOC
 [git-workflow]: /docs/contributing/git-workflow.md
 [git-commit-conventions]: /docs/contributing/git-commit-conventions.md
 [vue-nuxt]: /docs/contributing/vue-nuxt.md
-[our-tools]: /docs/contributing/our-tools.md
+[our-tools]: /docs/contributing/tools.md

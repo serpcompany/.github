@@ -1,11 +1,6 @@
-# Tools we use
+# Tools
 
-- Github
-- Volta / gitify
-- Slack
-- Google Drive
-- Loom
-
+Here are the tools we use to work together more effectively. Please get/use them!
 
 ## Github
 
@@ -62,6 +57,8 @@ Google Drive is NOT a "source of truth" for us - it is only for things that are 
 
 1. Make sure to always share links that are properly permissions so that person doesn't have to "request access" (that wastes time and makes everything less 'asynchronous').
 2. Always leave links in the relevant github issues/project cards to the Google Drive resource - as Drive "search" is terrible and nothing will ever be found if its not linked to from Github.
+
+
 
 
 <!-- links -->

@@ -88,6 +88,11 @@
 - Write all vue/nuxt code for our websites and applications following (TDD) Test Driven Development.
 - Have have test file (`*.test.js`) for every "real" code file that you write: this allows Vitest to know about the files and get a generate a more accurate coverate report.
 
+**Resources:**
+
+- [Vue Masterclass Course](https://www.udemy.com/course/vue-masterclass/learn): Good course on TDD with Vue & Vitest.
+
+
 ### Test Conventions
 
 **File/folder naming**: `tests/<test-type>/<category-of-thing>/*.test.js`

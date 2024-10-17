@@ -13,7 +13,7 @@ Stay up to date on your @tags, todos, etc. using the [Github Notifications Inbox
 
 Grab issues from the "todo" column in Volta, and mark them as "In Progress" when you're ready to begin. 
 
-Make sure to follow our team's collaborative [git workflow](./docs/git-workflow.md) & [git commit conventions](./docs/git-commit-conventions.md).
+Make sure to follow our team's collaborative [git workflow][git-workflow] & [git commit conventions][git-commit-conventions].
 
 ### Gitify
 
@@ -63,3 +63,8 @@ Google Drive is NOT a "source of truth" for us - it is only for things that are 
 1. Make sure to always share links that are properly permissions so that person doesn't have to "request access" (that wastes time and makes everything less 'asynchronous').
 2. Always leave links in the relevant github issues/project cards to the Google Drive resource - as Drive "search" is terrible and nothing will ever be found if its not linked to from Github.
 
+
+<!-- links -->
+
+[git-workflow]: /docs/contributing/git-workflow.md
+[git-commit-conventions]: /docs/contributing/git-commit-conventions.md

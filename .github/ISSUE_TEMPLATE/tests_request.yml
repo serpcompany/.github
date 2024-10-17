@@ -1,6 +1,6 @@
-name: Tests Requested
+name: Tests Request
 description: Use this template to request test code to be written for an item.
-title: "[cicd] write tests for <item>"
+title: "add tests to <item/solution>"
 labels: ["CICD ⚙️"]
 
 body:

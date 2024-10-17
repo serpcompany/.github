@@ -1,0 +1,62 @@
+name: Test Code Request
+description: Use this template to request test code to be written for an item.
+title: "[TEST CODE] Request for test code for [Item Name]"
+labels: ["test code", "needs triage"]
+assignees: ["username"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Test Code Request
+
+        Thank you for requesting test code to be written. Please fill out the form below.
+
+        *After the test code is written, the committer should upload a screenshot or file showing 100% coverage in the **Coverage Report** section below.*
+
+  - type: input
+    id: item_name
+    attributes:
+      label: "Item Name"
+      description: "Provide the name of the item that needs test code."
+      placeholder: "Enter item name"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Item Description"
+      description: "Describe the item and any specific requirements for the test code."
+      placeholder: "Provide additional details"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: test_types
+    attributes:
+      label: "Type of Test"
+      description: "Select the type of tests that need to be written."
+      multiple: true
+      options:
+        - "unit"
+        - "integration"
+        - "E2E"
+        - "unsure"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Coverage Report
+
+        *To be completed by the committer after implementing the test code.*
+
+  - type: input
+    id: coverage_report
+    attributes:
+      label: "Upload Coverage Report"
+      description: "Upload a screenshot or file showing 100% coverage."
+    validations:
+      required: true

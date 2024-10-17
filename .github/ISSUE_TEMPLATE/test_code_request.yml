@@ -57,13 +57,8 @@ body:
     attributes:
       label: "Upload Coverage Report"
       description: "Upload a screenshot or file showing 100% coverage."
-      accept:
-        - "image/*"
-        - ".txt"
-        - ".pdf"
-        - ".html"
     validations:
-      required: false
+      required: true
 
   - type: checkboxes
     id: code_of_conduct

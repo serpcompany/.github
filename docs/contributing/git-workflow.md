@@ -27,11 +27,6 @@ From there, work on issues based on the following priority:
 
 > If there's no issue made for what you need to do, you can create one with `gh issue create` followed by a few interactive prompts.
 
-### Issue workflow example (GUI)
-
-![create a branch from an issue in github](https://github.com/user-attachments/assets/93aadfff-1c9b-43b1-be28-f62b6a3b2f1a)
-
-> Remember to you ASSIGN the issue to yourself before you start it
 
 ### Issue workflow example (CLI)
 
@@ -41,8 +36,8 @@ From there, work on issues based on the following priority:
 
 
 ## 2. Branch
-Create a feature branch from an issue to work on. In most cases, the branch _source_ should be `dev`.
 
+Create a feature branch from an issue to work on. In most cases, the branch _source_ should be `dev`.
 Follow the branch naming convention: `<your-initials>/<issue-number>/<branch-name>`
 
 
@@ -73,6 +68,11 @@ From github.com:serpcompany/serp-ui-nuxt
 # automatically switched to the created branch
 devin:~/repos/projects/serp-ui-nuxt (ds/32/company-index)$
 ```
+
+### Branch Workflow Example (GUI)
+
+![create a branch from an issue in github](https://github.com/user-attachments/assets/93aadfff-1c9b-43b1-be28-f62b6a3b2f1a)
+
 
 
 ## 3. Develop

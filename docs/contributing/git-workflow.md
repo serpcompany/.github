@@ -2,14 +2,14 @@
 
 This document outlines the team's Gitflow for working collaboratively together.
 
-## Git workflow steps
+**Git Workflow Steps / Overview:**
 
 1. `Issue`: Choose an issue to work on.
 2. `Branch`: Create a branch from the issue. The branch source should be `dev`.
 3. `Develop`: Work locally on your branch, following our [git commit guidelines]().
-4. `Push/PR`: When finished, push your branch to the remote with a PR (or a draft PR if can't finish in one session)
-5. `Review`: After it's been reviewed and merged, delete the branch.
-6. `Repeat`: Grab the next issue for the next issue.
+4. `Push/PR`: When finished, push your branch to the remote with a PR (or a draft PR if can't finish in one session) - if the CICD checks pass mark it as "Ready for Review"
+5. `Review`: After it's been reviewed and merged
+6. `Repeat`: Grab the next issue & repeat the process!
 
 
 **Resources:**
@@ -20,6 +20,15 @@ This document outlines the team's Gitflow for working collaboratively together.
 
 ## Issue
 
+**Choose an issue to work on based on priority:**
+1. Prioritize issues with the following labels: `bug`, `security`, `regression`.
+2. by "Due date" (only applies if the issue is connected to a Github project, or you're using Volta)
+3. issues in the current "milestone"
+
+> If there's no issue made for what you need to do, you can create one with `gh issue create` followed by a few interactive prompts.
+
+### Issue workflow example
+
 Display a list of available issues:
 
 ```bash
@@ -29,14 +38,6 @@ gh issue list
 
 <br>
 <br>
-
-> Note:
->
->  Choose an issue from the "Todo" column in [Volta](https://volta.net/), or from Github issues tagged with the current "Milestone".
->
-> Prioritize issues with the following labels: `bug`, `security`, `regression`.
->
-> If there's no issue for you to work on, you can create one with `gh issue create` followed by a few interactive prompts.
 
 
 ## Branch

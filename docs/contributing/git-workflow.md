@@ -23,18 +23,15 @@ Work based on issues in the current "milestone" - designated by an asterisk(`*`)
 
 
 From there, work on issues based on the following priority:
-
 1. Issues with the following labels: `bug`, `security`, `regression`.
 2. By "Due date" (only applies if the issue is connected to a Github project, or you're using Volta)
 
-> If there's no issue made for what you need to do, you can create one with `gh issue create` followed by a few interactive prompts.
+> ❓ If there's no issue made for what you need to do, you can create one with `gh issue create` followed by a few interactive prompts.
+> 🎗️ Remember to you ASSIGN the issue to yourself before you start it
 
 
-### Issue workflow example (CLI)
+- [How to run this workflow from the CLI](https://gist.github.com/devinschumacher/ea416af5542ac7102c8e1ffd0ab38a99)
 
-[Click here to read the guide on how to run this workflow from the CLI](https://gist.github.com/devinschumacher/ea416af5542ac7102c8e1ffd0ab38a99)
-
-> Remember to you ASSIGN the issue to yourself before you start it
 
 
 ## 2. Branch

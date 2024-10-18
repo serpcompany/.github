@@ -1,13 +1,7 @@
-name: Add Issue to Project
+name: Shared Add to Project Workflow
 
 on:
-  issues:
-    types:
-      - opened
-
-permissions:
-  issues: write
-  project: write
+  workflow_call:
 
 jobs:
   add-to-project:
@@ -16,4 +10,4 @@ jobs:
       - uses: actions/add-to-project@v1.0.2
         with:
           project-url: https://github.com/orgs/serpcompany/projects/211
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ github.token }}

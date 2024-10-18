@@ -35,17 +35,7 @@ This document outlines the team's Gitflow for working collaboratively together.
 
 ### Issue workflow example (CLI)
 
-Display a list of available issues:
-
-```bash
-gh issue list
-```
-
-<img width="773" alt="371811559-dc7ab816-f937-45cd-bced-2f30db39b206" src="https://github.com/user-attachments/assets/9da5a254-2385-427d-be7b-a4395289afd0">
-
-
-<br>
-<br>
+[Click here to read the guide on how to run this workflow from the CLI](https://gist.github.com/devinschumacher/ea416af5542ac7102c8e1ffd0ab38a99)
 
 
 ## Branch

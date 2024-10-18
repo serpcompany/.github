@@ -31,13 +31,13 @@ From there, work on issues based on the following priority:
 
 ![create a branch from an issue in github](https://github.com/user-attachments/assets/93aadfff-1c9b-43b1-be28-f62b6a3b2f1a)
 
-> Remember sure you ASSIGN the issue to yourself before you start it
+> Remember to you ASSIGN the issue to yourself before you start it
 
 ### Issue workflow example (CLI)
 
 [Click here to read the guide on how to run this workflow from the CLI](https://gist.github.com/devinschumacher/ea416af5542ac7102c8e1ffd0ab38a99)
 
-> Remember sure you ASSIGN the issue to yourself before you start it
+> Remember to you ASSIGN the issue to yourself before you start it
 
 
 ## 2. Branch

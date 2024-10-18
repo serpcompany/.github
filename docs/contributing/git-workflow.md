@@ -2,7 +2,7 @@
 
 This document outlines the team's Gitflow for working collaboratively together.
 
-**Git workflow steps:**
+## Git workflow steps
 
 1. `Issue`: Choose an issue to work on.
 2. `Branch`: Create a branch from the issue. The branch source should be `dev`.

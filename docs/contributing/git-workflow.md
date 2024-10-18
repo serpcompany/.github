@@ -15,7 +15,7 @@ This document outlines the team's Gitflow for working collaboratively together.
 
 ---
 
-## Issue
+## 1. Issue
 
 If there is no Github Project attached to the issue, work based on what's in the current "milestone" - designated by an asterisk(`*`).
 ![image](https://github.com/user-attachments/assets/f2ce7b69-862b-4d03-ada8-100050b61dd4)
@@ -39,7 +39,8 @@ From there, work on issues based on the following priority:
 
 > Remember sure you ASSIGN the issue to yourself before you start it
 
-## Branch
+
+## 2. Branch
 Create a feature branch from an issue to work on. In most cases, the branch _source_ should be `dev`.
 
 Follow the branch naming convention: `<your-initials>/<issue-number>/<branch-name>`
@@ -74,7 +75,7 @@ devin:~/repos/projects/serp-ui-nuxt (ds/32/company-index)$
 ```
 
 
-## Develop
+## 3. Develop
 Work locally on your branch. Follow our [git commit conventions][git-commit-conventions].
 
 1. Do some work, stage changes.
@@ -106,13 +107,16 @@ gh pr create
 ```
 
 
-## Review
+## 4. Review
 After it's been reviewed and merged, delete the branch from local and remote.
+
 
 ## Repeat
 Grab the next issue for the next issue!
 
 
-<!-- Links TOC -->
+
+
+<!-- links -->
 
 [git-commit-conventions]: /docs/contributing/git-commit-conventions.md

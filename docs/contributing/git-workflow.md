@@ -20,23 +20,27 @@ This document outlines the team's Gitflow for working collaboratively together.
 
 ## Issue
 
-**Choose an issue to work on based on priority:**
-1. Prioritize issues with the following labels: `bug`, `security`, `regression`.
+If there is no Github Project attached to the issue, work based on what's in the current "milestone" - designated by an asterisk(`*`).
+![image](https://github.com/user-attachments/assets/f2ce7b69-862b-4d03-ada8-100050b61dd4)
+
+From there, work on issues based on the following priority:
+
+1. issues with the following labels: `bug`, `security`, `regression`.
 2. by "Due date" (only applies if the issue is connected to a Github project, or you're using Volta)
-3. issues in the current "milestone"
 
 > If there's no issue made for what you need to do, you can create one with `gh issue create` followed by a few interactive prompts.
-
 
 ### Issue workflow example (GUI)
 
 ![create a branch from an issue in github](https://github.com/user-attachments/assets/93aadfff-1c9b-43b1-be28-f62b6a3b2f1a)
 
+> Remember sure you ASSIGN the issue to yourself before you start it
 
 ### Issue workflow example (CLI)
 
 [Click here to read the guide on how to run this workflow from the CLI](https://gist.github.com/devinschumacher/ea416af5542ac7102c8e1ffd0ab38a99)
 
+> Remember sure you ASSIGN the issue to yourself before you start it
 
 ## Branch
 Create a feature branch from an issue to work on. In most cases, the branch _source_ should be `dev`.

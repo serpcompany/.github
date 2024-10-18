@@ -12,9 +12,6 @@ This document outlines the team's Gitflow for working collaboratively together.
 6. `Repeat`: Grab the next issue & repeat the process!
 
 
-**Resources:**
-- [An example of the workfow (w/ commands)](https://gist.github.com/devinschumacher/26a05e6c1d8976981a42f28f65eecdb3#file-2_example-md)
-
 
 ---
 

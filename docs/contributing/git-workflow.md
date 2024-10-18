@@ -27,7 +27,13 @@ This document outlines the team's Gitflow for working collaboratively together.
 
 > If there's no issue made for what you need to do, you can create one with `gh issue create` followed by a few interactive prompts.
 
-### Issue workflow example
+
+### Issue workflow example (GUI)
+
+![create a branch from an issue in github](https://github.com/user-attachments/assets/93aadfff-1c9b-43b1-be28-f62b6a3b2f1a)
+
+
+### Issue workflow example (CLI)
 
 Display a list of available issues:
 

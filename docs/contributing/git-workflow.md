@@ -76,7 +76,10 @@ devin:~/repos/projects/serp-ui-nuxt (ds/32/company-index)$
 
 
 ## 3. Develop
-Work locally on your branch. Follow our [git commit conventions][git-commit-conventions].
+1. Mark the task as "In Progress" (if it's attached to a Github Project or using Volta)
+2. Work locally on your branch, following our [git commit conventions][git-commit-conventions].
+
+### Example workflow
 
 1. Do some work, stage changes.
 ```bash
@@ -100,11 +103,10 @@ git commit
 
 
 ## 4. Push/PR
-Create a PR when finished (or a draft PR if can't finish in one session)
-
-```bash
-gh pr create
-```
+When you're finished with step 3:
+1. Push your branch from local->remote and create a PR to the appropriate branch.
+2. Wait till the CICD checks run & PASS.
+3. Click the `Ready for Review` buttno, and select some options of other developers to conduct the review.
 
 
 ## 5. Review
@@ -113,7 +115,6 @@ After it's been reviewed and merged, delete the branch from local and remote.
 
 ## Repeat
 Grab the next issue for the next issue!
-
 
 
 

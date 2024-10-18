@@ -34,7 +34,9 @@ Display a list of available issues:
 ```bash
 gh issue list
 ```
-<img width="773" alt="image" src="https://private-user-images.githubusercontent.com/45643901/371811559-dc7ab816-f937-45cd-bced-2f30db39b206.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjkwNjA2MTYsIm5iZiI6MTcyOTA2MDMxNiwicGF0aCI6Ii80NTY0MzkwMS8zNzE4MTE1NTktZGM3YWI4MTYtZjkzNy00NWNkLWJjZWQtMmYzMGRiMzliMjA2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDE2VDA2MzE1NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNiMmZiZWUwZTc1NmY0NWRhNWQ4NzBkMmMxNWU5YWI0Mjk3ZTQ1MjE4YmQzYzgzZjg2OGQxYThmN2JiYWM4YTkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.NLg_eFAMgLF939AeE7rCnxFXiPGsERXiIKilVigdYTM">
+
+<img width="773" alt="371811559-dc7ab816-f937-45cd-bced-2f30db39b206" src="https://github.com/user-attachments/assets/9da5a254-2385-427d-be7b-a4395289afd0">
+
 
 <br>
 <br>

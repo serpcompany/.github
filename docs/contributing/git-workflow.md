@@ -17,15 +17,15 @@ This document outlines the team's Gitflow for working collaboratively together.
 
 ## 1. Issue
 
-If there is no Github Project attached to the issue, work based on what's in the current "milestone" - designated by an asterisk(`*`).
+Work based on issues in the current "milestone" - designated by an asterisk(`*`).
 
 ![2024-10-17 21 30 54](https://github.com/user-attachments/assets/700239ab-42b9-40ed-9c3a-744b47dd807e)
 
 
 From there, work on issues based on the following priority:
 
-1. issues with the following labels: `bug`, `security`, `regression`.
-2. by "Due date" (only applies if the issue is connected to a Github project, or you're using Volta)
+1. Issues with the following labels: `bug`, `security`, `regression`.
+2. By "Due date" (only applies if the issue is connected to a Github project, or you're using Volta)
 
 > If there's no issue made for what you need to do, you can create one with `gh issue create` followed by a few interactive prompts.
 

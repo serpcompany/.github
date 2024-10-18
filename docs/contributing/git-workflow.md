@@ -99,7 +99,7 @@ git commit
 > Always fetch/sync your branch with the remote source branch before pushing to minimize conflicts.
 
 
-## Push/PR
+## 4. Push/PR
 Create a PR when finished (or a draft PR if can't finish in one session)
 
 ```bash
@@ -107,7 +107,7 @@ gh pr create
 ```
 
 
-## 4. Review
+## 5. Review
 After it's been reviewed and merged, delete the branch from local and remote.
 
 

@@ -18,7 +18,9 @@ This document outlines the team's Gitflow for working collaboratively together.
 ## 1. Issue
 
 If there is no Github Project attached to the issue, work based on what's in the current "milestone" - designated by an asterisk(`*`).
-![image](https://github.com/user-attachments/assets/f2ce7b69-862b-4d03-ada8-100050b61dd4)
+
+![2024-10-17 21 30 54](https://github.com/user-attachments/assets/700239ab-42b9-40ed-9c3a-744b47dd807e)
+
 
 From there, work on issues based on the following priority:
 

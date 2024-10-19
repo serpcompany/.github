@@ -1,0 +1,6 @@
+{
+  "name": "Add labels to new issue",
+  "description": "Automatically add label(s) to new issues.",
+  "categories": ["SERP"],
+  "iconName": "serp-icon"
+}

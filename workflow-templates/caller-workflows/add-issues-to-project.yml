@@ -1,0 +1,12 @@
+name: Add issues to project
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  call-add-to-project:
+    uses: serpcompany/.github/.github/workflows/reusable-add-issues-to-project.yml@main
+    secrets:
+      ADD_TO_PROJECT_PAT: ${{ secrets.ADD_TO_PROJECT_PAT }}

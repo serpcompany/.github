@@ -1,4 +1,4 @@
-name: Add issues to project
+name: "Add issues to project [caller]"
 
 on:
   issues:

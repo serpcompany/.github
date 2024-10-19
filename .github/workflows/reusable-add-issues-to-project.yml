@@ -2,6 +2,9 @@ name: "Add issues to project [reusable]"
 
 on:
   workflow_call:
+    secrets:
+      ADD_TO_PROJECT_PAT:
+        required: true
 
 jobs:
   add-to-project:
@@ -11,4 +14,4 @@ jobs:
       - uses: actions/add-to-project@v1.0.2
         with:
           project-url: 'https://github.com/orgs/serpcompany/projects/178'
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}

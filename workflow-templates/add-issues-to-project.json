@@ -1,0 +1,6 @@
+{
+  "name": "Add issues to project",
+  "description": "Automatically adds new issues to the main SERP | Project MGMT project.",
+  "categories": ["SERP"],
+  "iconName": "serp-icon"
+}

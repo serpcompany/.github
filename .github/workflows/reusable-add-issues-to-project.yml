@@ -1,4 +1,4 @@
-name: [reusable] Add issues to project
+name: "Add issues to project [reusable]"
 
 on:
   workflow_call:

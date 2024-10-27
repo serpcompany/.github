@@ -11,12 +11,12 @@ If you want to contribute/collaborate/work on projects with us, read & follow th
 **Subject area specific:**
 - [vue/nuxt][vue-nuxt]
 
-> See ./docs/contributing for more detailed information on our processes, standards, and guidelines, etc.
+> See ./content/contributing for more detailed information on our processes, standards, and guidelines, etc.
 
 <!-- links -->
 
-[git-workflow]: /docs/contributing/git-workflow.md
-[git-commit-conventions]: /docs/contributing/git-commit-conventions.md
-[vue-nuxt]: /docs/contributing/vue-nuxt.md
-[our-tools]: /docs/contributing/tools.md
-[tips]: /docs/contributing/tips.md
+[git-workflow]: /content/contributing/git-workflow.md
+[git-commit-conventions]: /content/contributing/git-commit-conventions.md
+[vue-nuxt]: /content/contributing/vue-nuxt.md
+[our-tools]: /content/contributing/tools.md
+[tips]: /content/contributing/tips.md

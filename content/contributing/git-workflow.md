@@ -119,4 +119,4 @@ Grab the next issue for the next issue!
 
 <!-- links -->
 
-[git-commit-conventions]: /docs/contributing/git-commit-conventions.md
+[git-commit-conventions]: /content/contributing/git-commit-conventions.md

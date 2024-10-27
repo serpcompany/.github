@@ -63,5 +63,5 @@ Google Drive is NOT a "source of truth" for us - it is only for things that are 
 
 <!-- links -->
 
-[git-workflow]: /docs/contributing/git-workflow.md
-[git-commit-conventions]: /docs/contributing/git-commit-conventions.md
+[git-workflow]: /content/contributing/git-workflow.md
+[git-commit-conventions]: /content/contributing/git-commit-conventions.md

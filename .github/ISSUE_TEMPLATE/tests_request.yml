@@ -1,6 +1,6 @@
 name: Tests Request 🧪
 description: Use this template to request test code to be written for an item.
-title: "[tests]: "
+title: "[tests] "
 labels: ["CICD ⚙️"]
 
 body:

@@ -43,7 +43,7 @@ body:
       placeholder: "e.g., Windows 10, macOS 11.2, Chrome, etc."
 
 
-- type: markdown
+  - type: markdown
     attributes:
       value: |
         ## Test Coverage Report

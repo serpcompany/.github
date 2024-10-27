@@ -54,4 +54,4 @@ body:
     id: coverage_report
     attributes:
       label: "Coverage report/screenshot"
-      description: "Upload a screenshot or report showing the new tests written to prevent this bug from happening again later."
+      description: "Upload a screenshot / report showing the new tests written to prevent this bug from happening again later and the 100% passing score from the test run."

@@ -1,31 +1,21 @@
-name: Tests Request
+name: Tests Request 🧪
 description: Use this template to request test code to be written for an item.
-title: "add tests to <item/solution>"
+title: "[tests]: "
 labels: ["CICD ⚙️"]
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        ## Tests Requested
-
-        Thank you for requesting test code to be written. Please fill out the form below.
-
-        *After the test code is written, the committer should upload a screenshot or file showing 100% coverage in the **Coverage Report** section below.*
-
   - type: textarea
     id: description
     attributes:
       label: "Description"
-      description: "Describe the item that needs tests written and/or the problems that occurred which prompted the need to file this request, so the developer has context behind tests to write."
     validations:
       required: true
 
   - type: dropdown
     id: test_types
     attributes:
-      label: "Type of Test"
-      description: "Select the type of tests that need to be written."
+      label: "Type"
+      description: "Select the type of test(s) that need to be written."
       multiple: true
       options:
         - "unit"
@@ -38,7 +28,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Coverage Report
+        ## Test Coverage Report
 
         *To be completed by the committer after implementing the test code.*
 
@@ -46,4 +36,4 @@ body:
     id: coverage_report
     attributes:
       label: "Coverage report/screenshot"
-      description: "Upload a screenshot or report confirming test coverage on item on commit."
+      description: "Upload a screenshot / report showing test coverage for the items on this issue."

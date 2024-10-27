@@ -1,7 +1,7 @@
-name: Bug Report
+name: Bug Report 🐛
 description: Use this template to report a bug.
-title: "[BUG] Your Bug Title"
-labels: ["bug", "needs triage"]
+title: "[BUG]: "
+labels: ["bug 🐛"]
 assignees: ["username"]
 
 body:
@@ -9,41 +9,11 @@ body:
     attributes:
       value: "## Bug Report\nThank you for taking the time to report a bug. Please fill out the form below."
 
-  - type: input
-    id: title
-    attributes:
-      label: "Bug Title"
-      description: "Provide a brief title for the bug."
-      placeholder: "Enter bug title"
-    validations:
-      required: true
-
   - type: textarea
     id: description
     attributes:
-      label: "Bug Description"
+      label: "Description"
       description: "Please describe the bug in detail."
-      placeholder: "Describe the bug and its impact"
-    validations:
-      required: true
-
-  - type: input
-    id: os
-    attributes:
-      label: "Operating System"
-      description: "Which operating system are you using?"
-      placeholder: "e.g., Windows 10, macOS 11.2"
-    validations:
-      required: true
-
-  - type: dropdown
-    id: version
-    attributes:
-      label: "Software Version"
-      description: "Which version of the software are you using?"
-      options:
-        - "1.0.2 (Stable)"
-        - "1.0.3 (Beta)"
     validations:
       required: true
 
@@ -55,15 +25,33 @@ body:
       placeholder: |
         1. Step one
         2. Step two
-        3. ...
+        3. etc
     validations:
       required: true
 
-  - type: checkboxes
-    id: terms
+  - type: input
+    id: media
     attributes:
-      label: "Code of Conduct"
-      description: "Please agree to the Code of Conduct before submitting."
-      options:
-        - label: "I agree to follow the Code of Conduct"
-          required: true
+      label: "Media/screenshot"
+      description: "Upload relevant media/screenshots."
+
+  - type: input
+    id: environment
+    attributes:
+      label: "Environment"
+      description: "Which environment/browser/OS are you using?"
+      placeholder: "e.g., Windows 10, macOS 11.2, Chrome, etc."
+
+
+- type: markdown
+    attributes:
+      value: |
+        ## Test Coverage Report
+
+        *To be completed by the committer after implementing the test code.*
+
+  - type: input
+    id: coverage_report
+    attributes:
+      label: "Coverage report/screenshot"
+      description: "Upload a screenshot or report showing the new tests written to prevent this bug from happening again later."

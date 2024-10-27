@@ -11,7 +11,7 @@ If you want to contribute/collaborate/work on projects with us, read & follow th
 **Subject area specific:**
 - [vue/nuxt][vue-nuxt]
 
-
+> See ./docs/contributing for more detailed information on our processes, standards, and guidelines, etc.
 
 <!-- links -->
 

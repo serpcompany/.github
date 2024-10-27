@@ -1,0 +1,116 @@
+# Logs and runtime data
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Secrets and API keys
+.env
+*.env
+.env.local
+.env.*.local
+*.local
+*.secret
+*.credentials
+*.config
+*.key
+*.pem
+*.p12
+*.crt
+*.cer
+*.enc
+*.pfx
+
+# Docker Compose and environment-specific configurations
+docker-compose.*.dev.yml
+docker-compose.*.development.yml
+docker-compose.*.local.yml
+docker-compose.override.yml
+.docker/
+
+# Kubernetes secrets (if applicable)
+*.kubeconfig
+*.kube/
+secrets.yml
+kube-secrets.yml
+
+
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.idea/
+.vscode/
+*.swp
+
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# Generated files
+dist/
+build/
+out/
+.cache/
+coverage/
+tmp/
+temp/
+*.min.js
+*.min.css
+
+# Large media files
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.webm
+*.mp3
+*.flac
+*.wav
+
+# Large binary files
+*.exe
+*.dll
+*.iso
+*.tar.gz
+*.zip
+*.7z
+
+# Compiled source files
+*.o
+*.obj
+*.pyc
+*.pyo
+*.class
+*.jar
+*.war
+*.dll
+*.exe
+
+# GitHub workflows cache
+.github/workflows/*.cache
+
+# Database files
+*.sqlite
+*.db
+
+# Backup files
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
+
+# Generated docs and other outputs
+docs/
+doc/api/
+doc/dist/
+
+# Ignore additional files for specific tools if needed
+# .eslintcache
+# .nuxt

@@ -7,34 +7,28 @@ title: "[feat]: "
 labels: ["feature 🎁"]
 
 body:
-  - type: markdown
-    attributes:
-      value: "**User Story**\nWrite the 'user story' describing the feature in simple, non-technical language and clarify why it's valuable for the end user."
-
   - type: textarea
     id: user_story
     attributes:
+      label: "User Story"
+      description: "Write the user story describing the feature in simple, non-technical language and clarify why it's valuable for the end user."
       placeholder: "As a [type of user], I want [goal] so that [benefit]."
     validations:
       required: true
 
-  - type: markdown
-    attributes:
-      value: "**Additional Details**\nAdd any extra information, acceptance criteria, or details that help clarify the feature."
-
   - type: textarea
     id: details
     attributes:
+      label: "Additional Details"
+      description: "Add any extra information, acceptance criteria, or details that help clarify the feature."
       placeholder: |
         1. Add a search bar to the top navigation.
         2. Users can enter keywords to see relevant article suggestions.
         3. Show up to 10 article results within 1 second, including titles and brief descriptions.
 
-  - type: markdown
-    attributes:
-      value: "**References**\nInclude links, screenshots, or any references (design inspo, similar features, etc.)."
-
   - type: textarea
     id: references
     attributes:
+      label: "References"
+      description: "Include links, screenshots, or any references (design inspiration, similar features, etc.)."
       placeholder: "e.g., [link to design], screenshot, etc."

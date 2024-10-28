@@ -1,30 +1,40 @@
 name: Feature Request 🎁
-description: Use this template to request a new feature or existing enhancement.
+description: >
+  Use this template to request a new feature or enhancement.
+  Please provide as much detail as possible to help us understand your request.
+
 title: "[feat]: "
 labels: ["feature 🎁"]
 
 body:
+  - type: markdown
+    attributes:
+      value: "**User Story**\nWrite the 'user story' describing the feature in simple, non-technical language and clarify why it's valuable for the end user."
+
   - type: textarea
     id: user_story
     attributes:
-      label: "User Story"
-      description: Write the "user story" describing the feature in simple, non-technical language and clarifies why it's valuable for the end user.
-      placeholder: As a [type of user], I want [goal] so that [benefit].
+      placeholder: "As a [type of user], I want [goal] so that [benefit]."
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: "**Additional Details**\nAdd any extra information, acceptance criteria, or details that help clarify the feature."
 
   - type: textarea
     id: details
     attributes:
-      label: "Additional Details"
-      description: Add additional details, description, acceptance criteria, etc. if needed
       placeholder: |
         1. Add a search bar to the top navigation.
         2. Users can enter keywords to see relevant article suggestions.
         3. Show up to 10 article results within 1 second, including titles and brief descriptions.
 
+  - type: markdown
+    attributes:
+      value: "**References**\nInclude links, screenshots, or any references (design inspo, similar features, etc.)."
+
   - type: textarea
     id: references
     attributes:
-      label: "References"
-      description: Include links, screenshots, etc. to any references (design inspo, a similar feature on another site, etc.)
+      placeholder: "e.g., [link to design], screenshot, etc."

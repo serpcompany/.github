@@ -6,5 +6,4 @@ labels: ["question"]
 body:
   - type: markdown
     attributes:
-      label: "Question"
       value: "Ask your question & tag a specific person if relevant."

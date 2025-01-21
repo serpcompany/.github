@@ -9,9 +9,5 @@ body:
       value: "Ask your question & tag a specific person if relevant."
       
   - type: textarea
-    id: description
     attributes:
-      label: "Description"
-      description: "Please describe the bug in detail."
-    validations:
-      required: true
+      label: "Question"

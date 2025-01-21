@@ -1,4 +1,4 @@
-name: Question
+name: Question ❓
 description: Use this template to ask a question about the repo
 title: "[question]: "
 labels: ["question"]
@@ -7,3 +7,11 @@ body:
   - type: markdown
     attributes:
       value: "Ask your question & tag a specific person if relevant."
+      
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "Please describe the bug in detail."
+    validations:
+      required: true

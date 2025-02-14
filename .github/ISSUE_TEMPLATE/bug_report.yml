@@ -33,6 +33,18 @@ body:
       label: "Media/screenshot"
       description: "Upload relevant media/screenshots."
 
+  - type: dropdown
+    id: type
+    attributes:
+      label: "Type"
+      description: "Select the type of issue."
+      options:
+        - "bug"
+        - "feature"
+        - "enhancement"
+    validations:
+      required: true
+    default: "bug"
 
   - type: markdown
     attributes:

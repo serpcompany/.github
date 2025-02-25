@@ -9,25 +9,10 @@ labels: ["feature 🎁"]
 body:
   - type: textarea
     id: description
-    attributes:
-      label: "Description"
-      description: "Add a description of the issue, acceptance criteria, or details that help clarify the feature."
-        
-  - type: textarea
-    id: user_story
-    attributes:
-      label: "User Story"
-      description: "Write the user story describing the feature in simple, non-technical language and clarify why it's valuable for the end user."
-      placeholder: | 
-         As a: [type of user]
-         I want: [goal]
-         so that: [benefit].
 
-  - type: textarea
-    id: details
     attributes:
-      label: "Additional Details"
-      description: "Add any additional details, acceptance criteria, etc. to help clarify the feature."
+      label: "🎁 Description / User Story"
+      description: "Add a description of the issue, acceptance criteria, or details that help clarify the feature."
       placeholder: |
         1. Add a search bar to the top navigation.
         2. Users can enter keywords to see relevant article suggestions.
@@ -36,6 +21,6 @@ body:
   - type: textarea
     id: references
     attributes:
-      label: "References"
+      label: "📝 Additional info"
       description: "Include links, screenshots, or any references (design inspiration, similar features, etc.)."
       placeholder: "e.g., [link to design], screenshot, etc."

@@ -1,6 +1,7 @@
 name: Tests / CICD 🧪
 description: Use this template to request test code to be written for an item.
 labels: ["CICD ⚙️"]
+type: Task
 
 body:
   - type: textarea

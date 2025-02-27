@@ -1,10 +1,8 @@
-name: Feature Request 🎁
+name: Feature 🎁
 description: >
   Use this template to request a new feature or enhancement.
   Please provide as much detail as possible to help us understand your request.
-
-title: "[feat]: "
-labels: ["feature 🎁"]
+type: Feature
 
 body:
   - type: textarea

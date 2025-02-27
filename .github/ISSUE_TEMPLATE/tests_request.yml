@@ -1,6 +1,5 @@
-name: Tests Request 🧪
+name: Tests / CICD 🧪
 description: Use this template to request test code to be written for an item.
-title: "[tests] "
 labels: ["CICD ⚙️"]
 
 body:

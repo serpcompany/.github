@@ -1,6 +1,5 @@
 name: Question ❓
 description: Use this template to ask a question about the repo
-title: "[question]: "
 labels: ["question"]
 
 body:

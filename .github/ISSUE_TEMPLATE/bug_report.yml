@@ -16,22 +16,6 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: steps
-    attributes:
-      label: "Reproduction Steps"
-      description: "Please provide step-by-step instructions to reproduce the issue."
-      placeholder: |
-        1. Step one
-        2. Step two
-        3. etc
-
-  - type: input
-    id: media
-    attributes:
-      label: "Media/screenshot"
-      description: "Upload relevant media/screenshots."
-
   - type: markdown
     attributes:
       value: |

@@ -1,8 +1,7 @@
-name: "Daily Check Issue with Template"
+name: "Daily Check Issue"
 
 on:
   schedule:
-    # Runs at 9:00 AM UTC every day; adjust as needed.
     - cron: "0 9 * * *"
   workflow_dispatch:
 
@@ -10,30 +9,26 @@ jobs:
   create-daily-issue:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Check out repository
         uses: actions/checkout@v3
 
-      - name: Create daily check issue using template file
-        id: create_issue
+      - name: Create daily check issue
         uses: actions/github-script@v6
         with:
           script: |
             const fs = require('fs');
-            // Read your issue template file
-            const templatePath = '.github/ISSUE_TEMPLATE/daily_checks.yml';
-            const templateContent = fs.readFileSync(templatePath, 'utf8');
-            
-            // Use today's date for the issue title
+            const dailyChecklistPath = '.github/ISSUE_TEMPLATE/daily-check.md';
+            const dailyChecklist = fs.readFileSync(dailyChecklistPath, 'utf8');
+
             const today = new Date().toISOString().split('T')[0];
             const issueTitle = `Daily Check - ${today}`;
-            
-            // Create the issue with the template content as the body.
+
             const { data: issue } = await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
               title: issueTitle,
-              body: templateContent,
+              body: dailyChecklist,
               assignees: ["devinschumacher", "francislabountyjr"]
             });
-            
+
             core.info(`Created issue #${issue.number}: ${issue.html_url}`);

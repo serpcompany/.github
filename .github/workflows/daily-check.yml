@@ -17,18 +17,20 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const dailyChecklistPath = '.github/ISSUE_TEMPLATE/daily-check.md';
-            const dailyChecklist = fs.readFileSync(dailyChecklistPath, 'utf8');
+            const templatePath = '.github/ISSUE_TEMPLATE/daily-check.yml';
+            const templateContent = fs.readFileSync(templatePath, 'utf8');
 
             const today = new Date().toISOString().split('T')[0];
             const issueTitle = `Daily Check - ${today}`;
 
+            // Create the issue with the "daily" label
             const { data: issue } = await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
               title: issueTitle,
-              body: dailyChecklist,
-              assignees: ["devinschumacher", "francislabountyjr"]
+              body: templateContent,  // Will appear as raw YAML if it's the issue form
+              assignees: ["devinschumacher", "francislabountyjr"],
+              labels: ["daily"] 
             });
 
             core.info(`Created issue #${issue.number}: ${issue.html_url}`);

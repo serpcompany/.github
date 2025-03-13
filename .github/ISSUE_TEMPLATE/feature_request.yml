@@ -9,16 +9,10 @@ body:
     id: description
 
     attributes:
-      label: "🎁 Description / User Story"
-      description: "Add a description of the issue, acceptance criteria, or details that help clarify the feature."
+      label: "🎁 Description"
+      description: "Add a description / user story of the issue, acceptance criteria, or details that help clarify the feature."
       placeholder: |
         1. Add a search bar to the top navigation.
         2. Users can enter keywords to see relevant article suggestions.
         3. Show up to 10 article results within 1 second, including titles and brief descriptions.
-
-  - type: textarea
-    id: references
-    attributes:
-      label: "📝 Additional info"
-      description: "Include links, screenshots, or any references (design inspiration, similar features, etc.)."
-      placeholder: "e.g., [link to design], screenshot, etc."
+        4. Include links, screenshots, or any references (design inspiration, similar features, etc.).

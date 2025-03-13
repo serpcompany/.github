@@ -20,7 +20,7 @@ jobs:
           script: |
             const fs = require('fs');
             // Read your issue template file
-            const templatePath = '.github/ISSUE_TEMPLATE/daily-check.yml';
+            const templatePath = '.github/ISSUE_TEMPLATE/daily_checks.yml';
             const templateContent = fs.readFileSync(templatePath, 'utf8');
             
             // Use today's date for the issue title

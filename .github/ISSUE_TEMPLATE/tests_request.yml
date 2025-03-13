@@ -1,6 +1,6 @@
-name: Tests / CICD 🧪
+name: CICD 🧪
 description: Use this template to request test code to be written for an item.
-labels: ["CICD ⚙️"]
+labels: ["CICD, tests"]
 type: Task
 
 body:
@@ -10,30 +10,3 @@ body:
       label: "Description"
     validations:
       required: true
-
-  - type: dropdown
-    id: test_types
-    attributes:
-      label: "Type"
-      description: "Select the type of test(s) that need to be written."
-      multiple: true
-      options:
-        - "unit"
-        - "integration"
-        - "e2e"
-        - "unsure"
-    validations:
-      required: false
-
-  - type: markdown
-    attributes:
-      value: |
-        ## Test Coverage Report
-
-        *To be completed by the committer after implementing the test code.*
-
-  - type: input
-    id: coverage_report
-    attributes:
-      label: "Coverage report/screenshot"
-      description: "Upload a screenshot / report showing test coverage for the items on this issue."

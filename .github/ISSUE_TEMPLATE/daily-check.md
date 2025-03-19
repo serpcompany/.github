@@ -6,3 +6,5 @@
 - [ ] Update/close GitHub issues
 
 Add any notes, updates, or blockers discovered during the daily checks below.
+
+@devinschumacher @francislabountyjr

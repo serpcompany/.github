@@ -10,16 +10,17 @@ jobs:
 
     steps:
       - name: Check issue for 'Type: Bug'
-        id: check_issue
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const issue = context.payload.issue;
-            if (issue.body.includes('Type: Bug')) {
-              return { isBug: true, issueUrl: issue.html_url };
-            } else {
-              return { isBug: false };
-            }
+          id: check_issue
+          uses: actions/github-script@v6
+          with:
+            script: |
+              const issue = context.payload.issue;
+              if (issue.body && issue.body.includes('Type: Bug')) {
+                return { isBug: "true", issueUrl: issue.html_url };
+              } else {
+                return { isBug: "false" };
+              }
+
 
       - name: Send notification to Slack
         if: steps.check_issue.outputs.isBug == 'true'

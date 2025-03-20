@@ -1,40 +1,28 @@
-name: Reusable Bug Notification Workflow
+name: Bug Alert to Slack
 
 on:
-  workflow_call:
-    inputs:
-      repo_name:
-        required: true
-        type: string
-      issue_number:
-        required: true
-        type: string
-      issue_title:
-        required: true
-        type: string
-      issue_url:
-        required: true
-        type: string
-    secrets:
-      SLACK_WEBHOOK_URL:
-        required: true
+  issues:
+    types: [opened, labeled]
 
 jobs:
   notify-slack:
     runs-on: ubuntu-latest
+    if: |
+      (github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'bug')) ||
+      (github.event.action == 'labeled' && github.event.label.name == 'bug')
     steps:
       - name: Send Slack notification
         uses: slackapi/slack-github-action@v1.24.0
         with:
           payload: |
             {
-              "text": "🐛 *New Bug Report*",
+              "text": "🐛 New Bug Report",
               "blocks": [
                 {
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "🐛 *New Bug Report*\n*Repository:* ${{ inputs.repo_name }}\n*Issue:* <${{ inputs.issue_url }}|#${{ inputs.issue_number }}: ${{ inputs.issue_title }}>"
+                    "text": "🐛 *New Bug Report*\n*Repository:* ${{ github.repository }}\n*Issue:* <${{ github.event.issue.html_url }}|#${{ github.event.issue.number }}: ${{ github.event.issue.title }}>"
                   }
                 }
               ]

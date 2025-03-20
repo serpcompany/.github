@@ -1,32 +1,24 @@
-name: Bug Alert
+name: Bug Issue Alert
 
 on:
   issues:
-    types: [opened, edited]
+    types: [opened, labeled]
 
 jobs:
-  check-and-notify:
+  check-bug-issue:
     runs-on: ubuntu-latest
-
     steps:
       - name: Check issue for 'Type: Bug'
-          id: check_issue
-          uses: actions/github-script@v6
-          with:
-            script: |
-              const issue = context.payload.issue;
-              if (issue.body && issue.body.includes('Type: Bug')) {
-                return { isBug: "true", issueUrl: issue.html_url };
-              } else {
-                return { isBug: "false" };
-              }
-
-
-      - name: Send notification to Slack
-        if: steps.check_issue.outputs.isBug == 'true'
-        uses: slackapi/slack-github-action@v1.19.0
+        if: |
+          (github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'bug')) ||
+          (github.event.action == 'labeled' && github.event.label.name == 'bug') ||
+          (github.event.action == 'opened' && contains(github.event.issue.title, '[Bug]')) ||
+          (github.event.action == 'opened' && github.event.issue.type == 'Bug')
+        uses: serpcompany/.github/.github/workflows/bug-slack-notification.yml@main
         with:
-          slack-message: 'A new bug has been reported: ${{ steps.check_issue.outputs.issueUrl }}'
-          channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
-        env:
-          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          repo_name: ${{ github.repository }}
+          issue_number: ${{ github.event.issue.number }}
+          issue_title: ${{ github.event.issue.title }}
+          issue_url: ${{ github.event.issue.html_url }}
+        secrets:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}

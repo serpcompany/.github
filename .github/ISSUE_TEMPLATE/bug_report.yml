@@ -1,6 +1,7 @@
 name: "Bug 🐛"
 description: Use this template to report a bug.
 type: Bug
+label: "bug"
 assignees: ["username"]
 
 body:

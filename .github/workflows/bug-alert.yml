@@ -3,6 +3,7 @@ name: Bug Alert to Slack
 on:
   issues:
     types: [opened, labeled]
+  workflow_dispatch:
 
 jobs:
   notify-slack:

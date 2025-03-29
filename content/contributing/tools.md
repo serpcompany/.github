@@ -10,6 +10,7 @@ Grab issues from the "todo" column in Volta, and mark them as "In Progress" when
 
 Make sure to follow our team's collaborative [git workflow][git-workflow] & [git commit conventions][git-commit-conventions].
 
+
 ### Gitify
 
 [gitify](https://github.com/gitify-app/gitify): GitHub notifications on your menu bar. Available on macOS, Windows & Linux.
@@ -18,6 +19,11 @@ Make sure to follow our team's collaborative [git workflow][git-workflow] & [git
 ### Volta
 
 [Volta](https://volta.net/) is a free tool that aims to improve the "proejct management" UX and features of Github.
+
+
+## Github Projecs
+
+We use the native github projects for project management
 
 
 ## Loom

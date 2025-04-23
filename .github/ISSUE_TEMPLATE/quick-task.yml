@@ -1,0 +1,12 @@
+name: Task
+description: >
+  Use this template to create a quick "Task"
+type: Task
+
+body:
+  - type: textarea
+    id: description
+
+    attributes:
+      label: Description
+      description: "Add a description."

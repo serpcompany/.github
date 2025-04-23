@@ -1,0 +1,12 @@
+name: Keywords
+description: >
+  Use this template to make an issue for new SEO Keywords you find.
+type: Task
+
+body:
+  - type: textarea
+    id: keywords
+
+    attributes:
+      label: Keywords
+      description: "Add SEO Keywords and the relevant sites/modules/etc."

@@ -9,6 +9,7 @@ body:
     id: description
 
     attributes:
+      label: Description
       description: "Add a description / user story of the issue, acceptance criteria, or details that help clarify the feature."
       placeholder: |
         1. Add a search bar to the top navigation.

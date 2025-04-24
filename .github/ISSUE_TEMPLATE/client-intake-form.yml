@@ -80,12 +80,12 @@ body:
       label: How often is this process performed?
       description: Select the frequency that best describes this process
       options:
-        - Multiple times daily
-        - Daily
-        - Weekly
-        - Monthly
-        - Quarterly
-        - Annually
+        - "Multiple times daily"
+        - "Daily"
+        - "Weekly"
+        - "Monthly"
+        - "Quarterly"
+        - "Annually"
     validations:
       required: true
 
@@ -209,9 +209,9 @@ body:
     attributes:
       label: Do these systems have APIs?
       options:
-        - Yes
-        - No
-        - Unsure
+        - "Yes"
+        - "No"
+        - "Unsure"
     validations:
       required: true
 
@@ -220,9 +220,9 @@ body:
     attributes:
       label: Is a test environment available?
       options:
-        - Yes
-        - No
-        - Unsure
+        - "Yes"
+        - "No"
+        - "Unsure"
     validations:
       required: false
 
@@ -307,12 +307,12 @@ body:
     attributes:
       label: Budget range
       options:
-        - Under $5,000
-        - $5,000 - $10,000
-        - $10,000 - $25,000
-        - $25,000 - $50,000
-        - Over $50,000
-        - Not determined yet
+        - "Under $5,000"
+        - "$5,000 - $10,000"
+        - "$10,000 - $25,000"
+        - "$25,000 - $50,000"
+        - "Over $50,000"
+        - "Not determined yet"
     validations:
       required: false
 
@@ -321,10 +321,10 @@ body:
     attributes:
       label: Preferred maintenance approach
       options:
-        - Internal team
-        - Ongoing support contract
-        - As-needed support
-        - Other
+        - "Internal team"
+        - "Ongoing support contract"
+        - "As-needed support"
+        - "Other"
     validations:
       required: false
 

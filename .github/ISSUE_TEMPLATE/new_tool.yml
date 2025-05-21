@@ -2,7 +2,7 @@ name: Tool ⚒️
 description: >
   Use this template to launch a new tool for SERP Tools
 type: Feature
-labels: ['tools','serp-tools']
+labels: ['tools','serp tools']
 title: '[tool] '
 
 body:

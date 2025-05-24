@@ -1,36 +1,36 @@
-# name: "Daily Check Issue"
+name: "Daily Check Issue"
 
-# on:
-#   schedule:
-#     - cron: "0 9 * * *"
-#   workflow_dispatch:
+on:
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch:
 
-# jobs:
-#   create-daily-issue:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: Check out repository
-#         uses: actions/checkout@v3
+jobs:
+  create-daily-issue:
+    runs-on: self-hosted
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
 
-#       - name: Create daily check issue
-#         uses: actions/github-script@v6
-#         with:
-#           script: |
-#             const fs = require('fs');
-#             const templatePath = '.github/ISSUE_TEMPLATE/daily-check.yml';
-#             const templateContent = fs.readFileSync(templatePath, 'utf8');
+      - name: Create daily check issue
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            const templatePath = '.github/ISSUE_TEMPLATE/daily-check.yml';
+            const templateContent = fs.readFileSync(templatePath, 'utf8');
 
-#             const today = new Date().toISOString().split('T')[0];
-#             const issueTitle = `Daily Check - ${today}`;
+            const today = new Date().toISOString().split('T')[0];
+            const issueTitle = `Daily Check - ${today}`;
 
-#             // Create the issue with the "daily" label
-#             const { data: issue } = await github.rest.issues.create({
-#               owner: context.repo.owner,
-#               repo: context.repo.repo,
-#               title: issueTitle,
-#               body: templateContent,  // Will appear as raw YAML if it's the issue form
-#               assignees: ["devinschumacher", "francislabountyjr"],
-#               labels: ["daily"] 
-#             });
+            // Create the issue with the "daily" label
+            const { data: issue } = await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: issueTitle,
+              body: templateContent,  // Will appear as raw YAML if it's the issue form
+              assignees: ["devinschumacher", "francislabountyjr"],
+              labels: ["daily"] 
+            });
 
-#             core.info(`Created issue #${issue.number}: ${issue.html_url}`);
+            core.info(`Created issue #${issue.number}: ${issue.html_url}`);

@@ -1,6 +1,6 @@
-name: CICD 🧪
-description: Use this template to request test code to be written for an item.
-labels: ["CICD, tests"]
+name: SRE 🧪
+description: Use this template to request tests, security, or code quality improvements (CICD/SRE)
+labels: ["CICD", "SRE"]
 type: Task
 
 body:

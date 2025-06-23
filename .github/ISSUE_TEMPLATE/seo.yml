@@ -1,0 +1,12 @@
+name: SEO
+description: >
+  Use this template to make an issue for new SEO related issues / keywords / etc.
+type: Task
+labels: ['seo']
+
+body:
+  - type: textarea
+    id: seo
+    attributes:
+      label: SEO
+      description: "Add SEO todos / keywords and the relevant sites/modules/etc."

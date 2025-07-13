@@ -1,8 +1,9 @@
 name: Feature 🎁
 description: >
   Use this template to request a new feature or enhancement.
-  Please provide as much detail as possible to help us understand your request.
 type: Feature
+title: "[FEAT]: "
+labels: ["enhancement", "triage"]
 
 body:
   - type: textarea
@@ -10,9 +11,11 @@ body:
 
     attributes:
       label: Description
-      description: "Add a description / user story of the issue, acceptance criteria, or details that help clarify the feature."
+      description: "Use this area to describe the new feature or enhancement you'd like to see."
       placeholder: |
-        1. Add a search bar to the top navigation.
-        2. Users can enter keywords to see relevant article suggestions.
-        3. Show up to 10 article results within 1 second, including titles and brief descriptions.
-        4. Include links, screenshots, or any references (design inspiration, similar features, etc.).
+        Example feature request for an app that allows you to download a video on a website:
+        
+        "As a user, I would like the option to download all of the videos on a webpage that has multiple videos,
+        to save time & energy from having to do them one-by-one"
+    validations:
+      required: true

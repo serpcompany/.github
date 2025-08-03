@@ -1,14 +1,14 @@
-name: Tool ⚒️
-description: >
-  Use this template to launch a new tool for SERP Tools
-type: Feature
-labels: ['tools','serp tools']
-title: '[tool] '
+# name: Tool ⚒️
+# description: >
+#   Use this template to launch a new tool for SERP Tools
+# type: Feature
+# labels: ['tools','serp tools']
+# title: '[tool] '
 
-body:
-  - type: textarea
-    id: description
+# body:
+#   - type: textarea
+#     id: description
 
-    attributes:
-      label: Description
-      description: "Add a description / user story of the tool, MVP acceptance criteria, or details that help clarify app."
+#     attributes:
+#       label: Description
+#       description: "Add a description / user story of the tool, MVP acceptance criteria, or details that help clarify app."

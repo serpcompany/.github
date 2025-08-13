@@ -1,12 +1,10 @@
 name: SEO
 description: >
-  Use this template to make an issue for new SEO related issues / keywords / etc.
-type: Task
-labels: ['seo']
+  Use this template to make an issue for new marketing/SEO todos
+type: Marketing
 
 body:
   - type: textarea
-    id: seo
+    id: todo
     attributes:
-      label: SEO
-      description: "Add SEO todos / keywords and the relevant sites/modules/etc."
+      label: Todo

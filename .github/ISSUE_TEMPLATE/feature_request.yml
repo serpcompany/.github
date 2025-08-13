@@ -1,8 +1,7 @@
-name: Feature Request 🙏
+name: Feature 🎁
 description: >
   Request a new feature or improvement to existing functionality
 type: Feature
-title: "[FEAT]: "
 labels: ["enhancement", "triage"]
 
 body:

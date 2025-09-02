@@ -9,4 +9,4 @@ body:
     attributes:
       label: "Description"
     validations:
-      required: true
+      required: false

@@ -1,6 +1,7 @@
 name: Question ❓
 description: Use this template to ask a question about the repo
 labels: ["question"]
+type: Feature
 
 body:
   - type: markdown
